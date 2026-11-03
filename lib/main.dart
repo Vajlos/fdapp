@@ -1,15 +1,37 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+
 import 'firebase_options.dart';
 import 'home_page.dart';
 import 'services/app_language.dart';
 
+// Supabase adresa a anon kľúč: flutter run --dart-define-from-file=supabase.json
+const _supabaseUrl = String.fromEnvironment('SUPABASE_URL');
+const _supabaseAnonKey = String.fromEnvironment('SUPABASE_ANON_KEY');
+
+// Web OAuth klient z google-services.json (client_type 3). Google token je
+// vystavený preň a rovnaké ID musí byť v Supabase pri Google prihlásení.
+const _googleWebClientId =
+    '706824712336-a7j2qk658kdf6tra6o3ra8f149n3sch6.apps.googleusercontent.com';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  if (_supabaseUrl.isEmpty || _supabaseAnonKey.isEmpty) {
+    throw StateError(
+      'Chýba SUPABASE_URL / SUPABASE_ANON_KEY – spusti appku s '
+      '--dart-define-from-file=supabase.json',
+    );
+  }
+  // Firebase ostáva len kvôli AI rozpoznávaniu jedla, prihlásenie je v Supabase.
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  await GoogleSignIn.instance.initialize();
+  await Supabase.initialize(
+    // adresa môže byť zadaná aj s "/rest/v1" na konci
+    url: _supabaseUrl.replaceFirst(RegExp(r'(/rest/v1)?/*$'), ''),
+    publishableKey: _supabaseAnonKey,
+  );
+  await GoogleSignIn.instance.initialize(serverClientId: _googleWebClientId);
   await AppLanguageController.instance.load();
   runApp(const MyApp());
 }
@@ -43,9 +65,7 @@ class MyApp extends StatelessWidget {
     elevation: 6,
     shadowColor: Colors.black87,
     padding: const EdgeInsets.symmetric(vertical: 16),
-    shape: RoundedRectangleBorder(
-      borderRadius: BorderRadius.circular(30),
-    ),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
   );
 
   @override
@@ -111,15 +131,15 @@ class MyApp extends StatelessWidget {
           style: TextButton.styleFrom(foregroundColor: _lilac),
         ),
       ),
-      home: StreamBuilder<User?>(
-        stream: FirebaseAuth.instance.authStateChanges(),
+      home: StreamBuilder<AuthState>(
+        stream: Supabase.instance.client.auth.onAuthStateChange,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Scaffold(
               body: Center(child: CircularProgressIndicator()),
             );
           }
-          if (snapshot.hasData) return const HomePage();
+          if (snapshot.data?.session != null) return const HomePage();
           return const WelcomePage();
         },
       ),
@@ -146,11 +166,12 @@ class _WelcomePageState extends State<WelcomePage> {
     });
     try {
       final googleUser = await GoogleSignIn.instance.authenticate();
-      final googleAuth = googleUser.authentication;
-      final credential = GoogleAuthProvider.credential(
-        idToken: googleAuth.idToken,
+      final idToken = googleUser.authentication.idToken;
+      if (idToken == null) throw 'Google nevrátil ID token';
+      await Supabase.instance.client.auth.signInWithIdToken(
+        provider: OAuthProvider.google,
+        idToken: idToken,
       );
-      await FirebaseAuth.instance.signInWithCredential(credential);
     } catch (e) {
       setState(() => _error = 'Google prihlásenie zlyhalo: $e');
     } finally {
@@ -188,10 +209,10 @@ class _WelcomePageState extends State<WelcomePage> {
                       onPressed: _loading
                           ? null
                           : () => Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (_) => const LoginPage(),
-                        ),
-                      ),
+                              MaterialPageRoute(
+                                builder: (_) => const LoginPage(),
+                              ),
+                            ),
                       icon: const Icon(Icons.mail_outline),
                       label: const Text('Prihlásiť účtom'),
                     ),
@@ -243,21 +264,30 @@ class _LoginPageState extends State<LoginPage> {
       _error = null;
     });
     try {
-      final auth = FirebaseAuth.instance;
+      final auth = Supabase.instance.client.auth;
       if (_isLogin) {
-        await auth.signInWithEmailAndPassword(
+        await auth.signInWithPassword(
           email: _email.text.trim(),
           password: _password.text,
         );
       } else {
-        await auth.createUserWithEmailAndPassword(
+        final res = await auth.signUp(
           email: _email.text.trim(),
           password: _password.text,
         );
+        // Keď je v Supabase zapnuté potvrdenie emailu, session príde až po
+        // kliknutí na odkaz v emaile.
+        if (res.session == null) {
+          setState(() {
+            _isLogin = true;
+            _error = 'Potvrď registráciu cez odkaz v emaile a potom sa prihlás';
+          });
+          return;
+        }
       }
       // Po úspechu zavri túto obrazovku, aby sa ukázala HomePage.
       if (mounted) Navigator.of(context).popUntil((r) => r.isFirst);
-    } on FirebaseAuthException catch (e) {
+    } on AuthException catch (e) {
       setState(() => _error = e.message);
     } finally {
       if (mounted) setState(() => _loading = false);
@@ -323,8 +353,9 @@ class _LoginPageState extends State<LoginPage> {
                     TextField(
                       controller: _confirm,
                       obscureText: true,
-                      decoration:
-                      const InputDecoration(labelText: 'Heslo znova'),
+                      decoration: const InputDecoration(
+                        labelText: 'Heslo znova',
+                      ),
                     ),
                   ),
                 ],
@@ -339,10 +370,10 @@ class _LoginPageState extends State<LoginPage> {
                     onPressed: _loading ? null : _submit,
                     child: _loading
                         ? const SizedBox(
-                      height: 20,
-                      width: 20,
-                      child: CircularProgressIndicator(strokeWidth: 2),
-                    )
+                            height: 20,
+                            width: 20,
+                            child: CircularProgressIndicator(strokeWidth: 2),
+                          )
                         : Text(_isLogin ? 'Prihlásiť sa' : 'Zaregistrovať sa'),
                   ),
                 ),
@@ -367,4 +398,3 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
-

@@ -37,7 +37,9 @@ class _MealDetailPageState extends State<MealDetailPage> {
                 Text(
                   'Zjedené o ${meal.time.format(context)}',
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: scheme.onSurface.withValues(alpha: 0.6)),
+                  style: TextStyle(
+                    color: scheme.onSurface.withValues(alpha: 0.6),
+                  ),
                 ),
                 const SizedBox(height: 16),
                 Center(child: DonutChart(data: meal.gramsByGroup)),

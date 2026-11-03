@@ -143,27 +143,31 @@ class _NutrientTable extends StatelessWidget {
     ];
 
     TableRow row(List<String> cells, {bool header = false}) => TableRow(
-          children: [
-            for (final (i, c) in cells.indexed)
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 8),
-                child: Text(
-                  c,
-                  textAlign: i == 0 ? TextAlign.left : TextAlign.right,
-                  style: TextStyle(
-                    color: header ? muted : scheme.onSurface,
-                    fontWeight: header || i == 2 ? FontWeight.w700 : FontWeight.w400,
-                    fontSize: header ? 12 : 15,
-                  ),
-                ),
+      children: [
+        for (final (i, c) in cells.indexed)
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: Text(
+              c,
+              textAlign: i == 0 ? TextAlign.left : TextAlign.right,
+              style: TextStyle(
+                color: header ? muted : scheme.onSurface,
+                fontWeight: header || i == 2
+                    ? FontWeight.w700
+                    : FontWeight.w400,
+                fontSize: header ? 12 : 15,
               ),
-          ],
-        );
+            ),
+          ),
+      ],
+    );
 
     return Table(
       columnWidths: const {0: FlexColumnWidth(2)},
       border: TableBorder(
-        horizontalInside: BorderSide(color: scheme.onSurface.withValues(alpha: 0.1)),
+        horizontalInside: BorderSide(
+          color: scheme.onSurface.withValues(alpha: 0.1),
+        ),
       ),
       children: [
         row(['', 'na 100 g', 'na $grams g'], header: true),

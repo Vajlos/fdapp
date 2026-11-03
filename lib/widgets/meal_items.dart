@@ -16,20 +16,20 @@ class MealSummary extends StatelessWidget {
     final muted = scheme.onSurface.withValues(alpha: 0.6);
 
     Widget cell(String value, String label) => Expanded(
-          child: Column(
-            children: [
-              Text(
-                value,
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w800,
-                  color: scheme.onSurface,
-                ),
-              ),
-              Text(label, style: TextStyle(fontSize: 12, color: muted)),
-            ],
+      child: Column(
+        children: [
+          Text(
+            value,
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w800,
+              color: scheme.onSurface,
+            ),
           ),
-        );
+          Text(label, style: TextStyle(fontSize: 12, color: muted)),
+        ],
+      ),
+    );
 
     return Row(
       children: [

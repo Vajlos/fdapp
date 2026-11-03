@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Databáza potravín (Supabase) a AI potrebujú internet aj v release buildoch -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="FoodApp"
         android:name="${applicationName}"

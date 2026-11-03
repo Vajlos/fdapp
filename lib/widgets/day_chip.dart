@@ -65,7 +65,9 @@ class DayChip extends StatelessWidget {
                 height: 6,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: hasMeals ? fg.withValues(alpha: 0.8) : Colors.transparent,
+                  color: hasMeals
+                      ? fg.withValues(alpha: 0.8)
+                      : Colors.transparent,
                 ),
               ),
             ],

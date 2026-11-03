@@ -62,8 +62,9 @@ class _DonutPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     const stroke = 30.0;
-    final rect = Offset(stroke / 2, stroke / 2) &
-    Size(size.width - stroke, size.height - stroke);
+    final rect =
+        Offset(stroke / 2, stroke / 2) &
+        Size(size.width - stroke, size.height - stroke);
     final total = data.values.fold(0, (a, b) => a + b);
 
     final trackPaint = Paint()

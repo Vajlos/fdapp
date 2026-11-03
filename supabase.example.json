@@ -1,0 +1,5 @@
+{
+  "SUPABASE_URL": "https://TVOJPROJEKT.supabase.co",
+  "SUPABASE_ANON_KEY": "sem-vloz-anon-public-kluc",
+  "SUPABASE_FOODS_TABLE": "foods_full"
+}

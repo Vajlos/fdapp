@@ -64,7 +64,7 @@ class MealTile extends StatelessWidget {
                         ),
                       )
                     else
-                    // pomerový pásik jedla podľa skupín
+                      // pomerový pásik jedla podľa skupín
                       ClipRRect(
                         borderRadius: BorderRadius.circular(6),
                         child: SizedBox(
@@ -101,8 +101,10 @@ class MealTile extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 4),
-                  Icon(Icons.chevron_right,
-                      color: scheme.onSurface.withValues(alpha: 0.5)),
+                  Icon(
+                    Icons.chevron_right,
+                    color: scheme.onSurface.withValues(alpha: 0.5),
+                  ),
                 ],
               ),
             ],

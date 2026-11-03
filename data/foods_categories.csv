@@ -1,0 +1,1564 @@
+id,name_en,preparation,category,sub_category
+1,Abalone,fried,fish,seafood
+2,Abalone,raw,fish,seafood
+3,Abiyuch,raw,fruit,
+4,Acerola,raw,fruit,
+5,Acid whey,,dairy,fermented
+6,Acid whey,dried,dairy,fermented
+7,Acorn flour,,nuts,
+8,Acorns,dried,nuts,
+9,Acorns,raw,nuts,
+10,Adzuki beans,boiled,legumes,
+11,Adzuki beans,raw,legumes,
+12,Agar seaweed,dried,vegetables,vegetables
+13,Agar seaweed,raw,vegetables,vegetables
+14,Alaska Pollock,raw,fish,fish
+15,Alfalfa seeds,raw,vegetables,vegetables
+16,Allspice,,spices,
+17,Almond butter,,nuts,
+18,Almond flour,,nuts,
+19,Almond milk,,dairy,plant_milk
+20,Almond oil,,fats,
+21,Almonds,,nuts,
+22,Almonds,raw,nuts,
+23,Almonds,roasted,nuts,
+24,Amaranth flour,,grains,flour
+25,Amaranth grain,cooked,grains,grains
+26,Amaranth grain,raw,grains,grains
+27,Amaranth leaves,boiled,vegetables,vegetables
+28,Amaranth leaves,raw,vegetables,vegetables
+29,American cheese,,cheese,processed
+30,Ancho peppers,dried,vegetables,vegetables
+31,Anchovy,raw,fish,fish
+32,Animal fat,,fats,
+33,Anise seed,,spices,
+34,Antelope,raw,meat,game
+35,Antelope,roasted,meat,game
+36,Apples,boiled,fruit,
+37,Apples,cooked,fruit,
+38,Apples,dried,fruit,
+39,Apples,frozen,fruit,
+40,Apples,raw,fruit,
+41,Apples,stewed,fruit,
+42,Applesauce,canned,fruit,
+43,Applesauce,raw,fruit,
+44,Apricot kernel oil,,fats,
+45,Apricots,dried,fruit,
+46,Apricots,raw,fruit,
+47,Apricots,stewed,fruit,
+48,Arrowhead,boiled,vegetables,vegetables
+49,Arrowhead,raw,vegetables,vegetables
+50,Arrowroot,raw,vegetables,vegetables
+51,Arrowroot flour,,grains,flour
+52,Artichokes,boiled,vegetables,vegetables
+53,Artichokes,frozen,vegetables,vegetables
+54,Artichokes,raw,vegetables,vegetables
+55,Arugula,raw,vegetables,vegetables
+56,Asparagus,boiled,vegetables,vegetables
+57,Asparagus,canned,vegetables,vegetables
+58,Asparagus,frozen,vegetables,vegetables
+59,Asparagus,raw,vegetables,vegetables
+60,Avocado oil,,fats,
+61,Avocados,raw,fruit,
+62,Babassu oil,,fats,
+63,Bacon,raw,meat_products,bacon
+64,Baguette,,bakery,bread
+65,Balsam-pear,boiled,vegetables,vegetables
+66,Balsam-pear,raw,vegetables,vegetables
+67,Balsamic vinegar,,spices,
+68,Bamboo shoots,boiled,vegetables,vegetables
+69,Bamboo shoots,canned,vegetables,vegetables
+70,Bamboo shoots,raw,vegetables,vegetables
+71,Banana or hungarian wax peppers,raw,vegetables,vegetables
+72,Bananas,raw,fruit,
+73,Barley flour,,grains,flour
+74,Basil,dried,spices,
+75,Basil,raw,spices,
+76,Bass,cooked,fish,fish
+77,Bass,raw,fish,fish
+78,Bay leaf,,spices,
+79,Bear,boiled,meat,game
+80,Bear,raw,meat,game
+81,Beaver,raw,meat,game
+82,Beaver,roasted,meat,game
+83,Beech mushroom,raw,vegetables,mushrooms
+84,Beechnuts,dried,nuts,
+85,Beef,boiled,meat,beef
+86,Beef,braised,meat,beef
+87,Beef,cooked,meat,beef
+88,Beef,fried,meat,beef
+89,Beef,raw,meat,beef
+90,Beef,roasted,meat,beef
+91,Beef back,braised,meat,beef
+92,Beef back,raw,meat,beef
+93,Beef brain,boiled,meat,beef
+94,Beef brain,fried,meat,beef
+95,Beef brain,raw,meat,beef
+96,Beef brisket,braised,meat,beef
+97,Beef brisket,raw,meat,beef
+98,Beef chuck,braised,meat,beef
+99,Beef chuck,broiled,meat,beef
+100,Beef chuck,grilled,meat,beef
+101,Beef chuck,raw,meat,beef
+102,Beef chuck,roasted,meat,beef
+103,Beef flank,braised,meat,beef
+104,Beef flank,broiled,meat,beef
+105,Beef flank,raw,meat,beef
+106,Beef heart,boiled,meat,beef
+107,Beef heart,raw,meat,beef
+108,Beef kidney,boiled,meat,beef
+109,Beef kidney,raw,meat,beef
+110,Beef liver,boiled,meat,beef
+111,Beef liver,braised,meat,beef
+112,Beef liver,fried,meat,beef
+113,Beef liver,raw,meat,beef
+114,Beef rib,braised,meat,beef
+115,Beef rib,broiled,meat,beef
+116,Beef rib,grilled,meat,beef
+117,Beef rib,raw,meat,beef
+118,Beef rib,roasted,meat,beef
+119,Beef ribeye,grilled,meat,beef
+120,Beef ribeye,raw,meat,beef
+121,Beef ribeye,roasted,meat,beef
+122,Beef round,braised,meat,beef
+123,Beef round,broiled,meat,beef
+124,Beef round,cooked,meat,beef
+125,Beef round,fried,meat,beef
+126,Beef round,grilled,meat,beef
+127,Beef round,raw,meat,beef
+128,Beef round,roasted,meat,beef
+129,Beef shank,boiled,meat,beef
+130,Beef shank,raw,meat,beef
+131,Beef short loin,broiled,meat,beef
+132,Beef short loin,grilled,meat,beef
+133,Beef short loin,raw,meat,beef
+134,Beef shoulder,braised,meat,beef
+135,Beef shoulder,grilled,meat,beef
+136,Beef shoulder,raw,meat,beef
+137,Beef sirloin,broiled,meat,beef
+138,Beef sirloin,fried,meat,beef
+139,Beef sirloin,grilled,meat,beef
+140,Beef sirloin,raw,meat,beef
+141,Beef sirloin,roasted,meat,beef
+142,Beef skirt,broiled,meat,beef
+143,Beef skirt,grilled,meat,beef
+144,Beef skirt,raw,meat,beef
+145,Beef tallow,,fats,
+146,Beef tenderloin,broiled,meat,beef
+147,Beef tenderloin,fried,meat,beef
+148,Beef tenderloin,grilled,meat,beef
+149,Beef tenderloin,raw,meat,beef
+150,Beef tenderloin,roasted,meat,beef
+151,Beef tongue,boiled,meat,beef
+152,Beef tongue,raw,meat,beef
+153,Beef top loin,grilled,meat,beef
+154,Beef top loin,raw,meat,beef
+155,Beef top loin,roasted,meat,beef
+156,Beef tripe,boiled,meat,beef
+157,Beef tripe,raw,meat,beef
+158,Beer,,drinks,alcohol
+159,Beet greens,boiled,vegetables,vegetables
+160,Beet greens,raw,vegetables,vegetables
+161,Beets,boiled,vegetables,vegetables
+162,Beets,canned,vegetables,vegetables
+163,Beets,raw,vegetables,vegetables
+164,Bell peppers,raw,vegetables,vegetables
+165,Bison,raw,meat,game
+166,Bison,roasted,meat,game
+167,Bison chuck,braised,meat,game
+168,Bison chuck,raw,meat,game
+169,Bison ribeye,broiled,meat,game
+170,Bison ribeye,raw,meat,game
+171,Bison round,broiled,meat,game
+172,Bison round,raw,meat,game
+173,Bison shoulder,raw,meat,game
+174,Bison sirloin,broiled,meat,game
+175,Bison sirloin,raw,meat,game
+176,Black beans,boiled,legumes,
+177,Black beans,canned,legumes,
+178,Black beans,raw,legumes,
+179,Black rice,raw,grains,rice
+180,Black turtle beans,boiled,legumes,
+181,Black turtle beans,canned,legumes,
+182,Black turtle beans,raw,legumes,
+183,Blackberries,frozen,fruit,
+184,Blackberries,raw,fruit,
+185,Blackeye pea,canned,legumes,
+186,Blackeye pea,raw,legumes,
+187,Blue cheese,,cheese,soft_ripened
+188,Blueberries,frozen,fruit,
+189,Blueberries,raw,fruit,
+190,Bluefish,cooked,fish,fish
+191,Bluefish,raw,fish,fish
+192,Boar,raw,meat,game
+193,Boar,roasted,meat,game
+194,Bok choy cabbage,raw,vegetables,vegetables
+195,Borage,boiled,vegetables,vegetables
+196,Borage,raw,vegetables,vegetables
+197,Boysenberries,frozen,fruit,
+198,Brazilnuts,dried,nuts,
+199,Brazilnuts,raw,nuts,
+200,Bread flour,,bakery,bread
+201,Bread roll,,bakery,rolls
+202,Bread wheat flours,,bakery,bread
+203,Breadfruit,raw,fruit,
+204,Breadfruit seeds,boiled,nuts,
+205,Breadfruit seeds,raw,nuts,
+206,Breadfruit seeds,roasted,nuts,
+207,Breadnut tree seeds,dried,nuts,
+208,Breadnut tree seeds,raw,nuts,
+209,Brick cheese,,cheese,hard
+210,Brie cheese,,cheese,soft_ripened
+211,Broadbeans,boiled,vegetables,vegetables
+212,Broadbeans,canned,legumes,
+213,Broadbeans,raw,vegetables,vegetables
+214,Broccoli,boiled,vegetables,vegetables
+215,Broccoli,cooked,vegetables,vegetables
+216,Broccoli,frozen,vegetables,vegetables
+217,Broccoli,raw,vegetables,vegetables
+218,Broccoli raab,cooked,vegetables,vegetables
+219,Broccoli raab,raw,vegetables,vegetables
+220,Brown mushrooms,raw,vegetables,mushrooms
+221,Brown rice,cooked,grains,rice
+222,Brown rice,raw,grains,rice
+223,Brown sugar,,sweets,sugar
+224,Brussels sprouts,boiled,vegetables,vegetables
+225,Brussels sprouts,frozen,vegetables,vegetables
+226,Brussels sprouts,raw,vegetables,vegetables
+227,Buckwheat,,grains,grains
+228,Buckwheat flour,,grains,flour
+229,Buckwheat groats,roasted,grains,grains
+230,Buffalo,raw,meat,game
+231,Buffalo,roasted,meat,game
+232,Bulgur,cooked,grains,grains
+233,Bulgur,raw,grains,grains
+234,Burbot,cooked,fish,fish
+235,Burbot,raw,fish,fish
+236,Burdock root,boiled,vegetables,vegetables
+237,Burdock root,raw,vegetables,vegetables
+238,Butter,,dairy,butter
+239,Butter oil,,dairy,butter
+240,Butterbur,boiled,vegetables,vegetables
+241,Butterbur,canned,vegetables,vegetables
+242,Butterbur,raw,vegetables,vegetables
+243,Butterfish,cooked,fish,fish
+244,Butterfish,raw,fish,fish
+245,Buttermilk,,dairy,butter
+246,Buttermilk,dried,dairy,butter
+247,Butternuts,dried,nuts,
+248,Cabbage,boiled,vegetables,vegetables
+249,Cabbage,raw,vegetables,vegetables
+250,Camembert cheese,,cheese,soft_ripened
+251,Canada Goose,raw,meat,game
+252,Cannellini beans,canned,legumes,
+253,Cannellini beans,raw,legumes,
+254,Canola oil,,fats,
+255,Cantaloupe melons,raw,fruit,
+256,Capers,canned,spices,
+257,Carambola,raw,fruit,
+258,Caraway cheese,,cheese,hard
+259,Caraway seed,,spices,
+260,Cardamom,,spices,
+261,Cardoon,boiled,vegetables,vegetables
+262,Cardoon,raw,vegetables,vegetables
+263,Caribou,raw,meat,game
+264,Caribou,roasted,meat,game
+265,Carissa,raw,fruit,
+266,Carob flour,,legumes,
+267,Carp,cooked,fish,fish
+268,Carp,raw,fish,fish
+269,Carrots,boiled,vegetables,vegetables
+270,Carrots,canned,vegetables,vegetables
+271,Carrots,dried,vegetables,vegetables
+272,Carrots,frozen,vegetables,vegetables
+273,Carrots,raw,vegetables,vegetables
+274,Casaba melons,raw,fruit,
+275,Cashew butter,,nuts,
+276,Cashew nuts,raw,nuts,
+277,Cashew nuts,roasted,nuts,
+278,Cassava,raw,vegetables,vegetables
+279,Cassava flour,raw,vegetables,vegetables
+280,Catfish,cooked,fish,fish
+281,Catfish,raw,fish,fish
+282,Catjang cowpeas,boiled,legumes,
+283,Catjang cowpeas,raw,legumes,
+284,Cauliflower,boiled,vegetables,vegetables
+285,Cauliflower,cooked,vegetables,vegetables
+286,Cauliflower,frozen,vegetables,vegetables
+287,Cauliflower,raw,vegetables,vegetables
+288,Caviar,raw,fish,seafood
+289,Celeriac,boiled,vegetables,vegetables
+290,Celeriac,raw,vegetables,vegetables
+291,Celery,boiled,vegetables,vegetables
+292,Celery,raw,vegetables,vegetables
+293,Celery seed,,spices,
+294,Celtuce,raw,vegetables,vegetables
+295,Chanterelle mushrooms,raw,vegetables,mushrooms
+296,Chayote,boiled,vegetables,vegetables
+297,Chayote,raw,vegetables,vegetables
+298,Cheddar cheese,,cheese,hard
+299,Cheddar or colby cheese,,cheese,hard
+300,Cherimoya,raw,fruit,
+301,Cherries,frozen,fruit,
+302,Cherries,raw,fruit,
+303,Chervil,dried,spices,
+304,Cheshire cheese,,cheese,hard
+305,Chestnut flour,,nuts,
+306,Chestnuts,dried,nuts,
+307,Chestnuts,raw,nuts,
+308,Chestnuts,roasted,nuts,
+309,Chestnuts,steamed,nuts,
+310,Chia seeds,dried,nuts,
+311,Chia seeds,raw,grains,grains
+312,Chicken,boiled,meat,chicken
+313,Chicken,canned,meat,chicken
+314,Chicken,fried,meat,chicken
+315,Chicken,raw,meat,chicken
+316,Chicken,roasted,meat,chicken
+317,Chicken,stewed,meat,chicken
+318,Chicken back,fried,meat,chicken
+319,Chicken back,raw,meat,chicken
+320,Chicken back,roasted,meat,chicken
+321,Chicken back,stewed,meat,chicken
+322,Chicken breast,braised,meat,chicken
+323,Chicken breast,fried,meat,chicken
+324,Chicken breast,grilled,meat,chicken
+325,Chicken breast,raw,meat,chicken
+326,Chicken breast,roasted,meat,chicken
+327,Chicken breast,stewed,meat,chicken
+328,Chicken dark meat,fried,meat,chicken
+329,Chicken dark meat,raw,meat,chicken
+330,Chicken dark meat,roasted,meat,chicken
+331,Chicken dark meat,stewed,meat,chicken
+332,Chicken drumstick,braised,meat,chicken
+333,Chicken drumstick,fried,meat,chicken
+334,Chicken drumstick,raw,meat,chicken
+335,Chicken drumstick,roasted,meat,chicken
+336,Chicken drumstick,stewed,meat,chicken
+337,Chicken fat,,fats,
+338,Chicken giblets,boiled,meat,chicken
+339,Chicken giblets,fried,meat,chicken
+340,Chicken giblets,raw,meat,chicken
+341,Chicken gizzard,boiled,meat,chicken
+342,Chicken gizzard,raw,meat,chicken
+343,Chicken heart,boiled,meat,chicken
+344,Chicken heart,raw,meat,chicken
+345,Chicken leg,fried,meat,chicken
+346,Chicken leg,raw,meat,chicken
+347,Chicken leg,roasted,meat,chicken
+348,Chicken leg,stewed,meat,chicken
+349,Chicken light meat,fried,meat,chicken
+350,Chicken light meat,raw,meat,chicken
+351,Chicken light meat,roasted,meat,chicken
+352,Chicken light meat,stewed,meat,chicken
+353,Chicken liver,boiled,meat,chicken
+354,Chicken liver,fried,meat,chicken
+355,Chicken liver,raw,meat,chicken
+356,Chicken neck,boiled,meat,chicken
+357,Chicken neck,fried,meat,chicken
+358,Chicken neck,raw,meat,chicken
+359,Chicken neck,roasted,meat,chicken
+360,Chicken neck,stewed,meat,chicken
+361,Chicken skin,braised,meat,chicken
+362,Chicken skin,fried,meat,chicken
+363,Chicken skin,raw,meat,chicken
+364,Chicken skin,roasted,meat,chicken
+365,Chicken skin,stewed,meat,chicken
+366,Chicken thigh,braised,meat,chicken
+367,Chicken thigh,fried,meat,chicken
+368,Chicken thigh,raw,meat,chicken
+369,Chicken thigh,roasted,meat,chicken
+370,Chicken thigh,stewed,meat,chicken
+371,Chicken wing,fried,meat,chicken
+372,Chicken wing,raw,meat,chicken
+373,Chicken wing,roasted,meat,chicken
+374,Chicken wing,stewed,meat,chicken
+375,Chickpea flour,,legumes,
+376,Chickpeas,boiled,legumes,
+377,Chickpeas,canned,legumes,
+378,Chickpeas,raw,legumes,
+379,Chicory,raw,vegetables,vegetables
+380,Chicory greens,raw,vegetables,vegetables
+381,Chicory roots,raw,vegetables,vegetables
+382,Chili beans,cooked,legumes,
+383,Chili peppers,canned,vegetables,vegetables
+384,Chinese cabbage,boiled,vegetables,vegetables
+385,Chinese cabbage,raw,vegetables,vegetables
+386,Chinese noodles,,grains,pasta
+387,Chinese noodles,dried,legumes,
+388,Chives,dried,vegetables,vegetables
+389,Chives,raw,vegetables,vegetables
+390,Chrysanthemum,boiled,vegetables,vegetables
+391,Chrysanthemum,raw,vegetables,vegetables
+392,Chrysanthemum leaves,raw,vegetables,vegetables
+393,Cider vinegar,,spices,
+394,Cinnamon,,spices,
+395,Cisco,raw,fish,fish
+396,Cisco,smoked,fish,fish
+397,Clam,boiled,fish,seafood
+398,Clam,canned,fish,seafood
+399,Clam,raw,fish,seafood
+400,Clarified butter,,dairy,butter
+401,Clementines,raw,fruit,
+402,Cloves,,spices,
+403,Cocoa butter,,fats,
+404,Coconut cream,raw,nuts,
+405,Coconut flour,,nuts,
+406,Coconut meat,dried,nuts,
+407,Coconut meat,raw,nuts,
+408,Coconut milk,canned,nuts,
+409,Coconut milk,frozen,nuts,
+410,Coconut milk,raw,nuts,
+411,Coconut oil,,fats,
+412,Cod,canned,fish,fish
+413,Cod,cooked,fish,fish
+414,Cod,dried,fish,fish
+415,Cod,frozen,fish,fish
+416,Cod,raw,fish,fish
+417,Cod liver fish oil,,fats,
+418,Coffee,,drinks,hot
+419,Colby cheese,,cheese,hard
+420,Collards,boiled,vegetables,vegetables
+421,Collards,frozen,vegetables,vegetables
+422,Collards,raw,vegetables,vegetables
+423,Conch,baked,fish,seafood
+424,Coriander leaves,dried,spices,
+425,Coriander leaves,raw,vegetables,vegetables
+426,Coriander seed,,spices,
+427,Corn and canola oil,,fats,
+428,Corn bran,,grains,grains
+429,Corn flour,,grains,flour
+430,Corn flour,raw,grains,flour
+431,Corn grain,,grains,grains
+432,Corn oil,,fats,
+433,Cornsalad,raw,vegetables,vegetables
+434,Cornstarch,,grains,flour
+435,Cotija cheese,,cheese,hard
+436,Cottage cheese,,cheese,fresh
+437,Cottage cheese,dried,cheese,fresh
+438,Cottonseed flour,,nuts,
+439,Cottonseed kernels,roasted,nuts,
+440,Cottonseed oil,,fats,
+441,Couscous,cooked,grains,pasta
+442,Couscous,raw,grains,pasta
+443,Cowpeas,boiled,vegetables,vegetables
+444,Cowpeas,canned,legumes,
+445,Cowpeas,frozen,vegetables,vegetables
+446,Cowpeas,raw,vegetables,vegetables
+447,Cowpeas leafy tips,boiled,vegetables,vegetables
+448,Cowpeas leafy tips,raw,vegetables,vegetables
+449,Cowpeas young pods with seeds,boiled,vegetables,vegetables
+450,Cowpeas young pods with seeds,raw,vegetables,vegetables
+451,Crab,boiled,fish,seafood
+452,Crab,canned,fish,seafood
+453,Crab,raw,fish,seafood
+454,Crabapples,raw,fruit,
+455,Cranberries,raw,fruit,
+456,Cranberry beans,boiled,legumes,
+457,Cranberry beans,canned,legumes,
+458,Cranberry beans,raw,legumes,
+459,Crayfish,boiled,fish,seafood
+460,Crayfish,raw,fish,seafood
+461,Cream cheese,,cheese,fresh
+462,Cress,boiled,vegetables,vegetables
+463,Cress,raw,vegetables,vegetables
+464,Crimini mushroom,raw,vegetables,mushrooms
+465,Croaker,raw,fish,fish
+466,Cucumber,raw,vegetables,vegetables
+467,Cumin seed,,spices,
+468,Cupu assu oil,,fats,
+469,Currants,dried,fruit,
+470,Currants,raw,fruit,
+471,Cusk,cooked,fish,fish
+472,Cusk,raw,fish,fish
+473,Cuttlefish,boiled,fish,seafood
+474,Cuttlefish,raw,fish,seafood
+475,Daikon,boiled,vegetables,vegetables
+476,Daikon,dried,vegetables,vegetables
+477,Daikon,raw,vegetables,vegetables
+478,Dandelion greens,boiled,vegetables,vegetables
+479,Dandelion greens,raw,vegetables,vegetables
+480,Dates,raw,fruit,
+481,Deer,raw,meat,game
+482,Deer,roasted,meat,game
+483,Deer loin,broiled,meat,game
+484,Deer round,broiled,meat,game
+485,Deer shoulder,braised,meat,game
+486,Deer tenderloin,broiled,meat,game
+487,Degermed cornmeal,,grains,grains
+488,Dill seed,,spices,
+489,Dill weed,dried,spices,
+490,Dill weed,raw,spices,
+491,Distilled vinegar,,spices,
+492,Dock,boiled,vegetables,vegetables
+493,Dock,raw,vegetables,vegetables
+494,Dove,cooked,meat,game
+495,Dried-frozen tofu,dried,legumes,
+496,Drum,cooked,fish,fish
+497,Drum,raw,fish,fish
+498,Drumstick leaves,boiled,vegetables,vegetables
+499,Drumstick leaves,raw,vegetables,vegetables
+500,Drumstick pods,boiled,vegetables,vegetables
+501,Drumstick pods,raw,vegetables,vegetables
+502,Dry white cheese,dried,cheese,fresh
+503,Duck,raw,meat,duck
+504,Duck,roasted,meat,duck
+505,Duck breast,broiled,meat,duck
+506,Duck breast,raw,meat,duck
+507,Duck breast,roasted,meat,duck
+508,Duck egg,raw,eggs,other_eggs
+509,Duck leg,braised,meat,duck
+510,Duck leg,roasted,meat,duck
+511,Duck liver,raw,meat,duck
+512,Duck skin,raw,meat,duck
+513,Duck skin,roasted,meat,duck
+514,Durian,frozen,fruit,
+515,Edam cheese,,cheese,hard
+516,Edamame,frozen,vegetables,vegetables
+517,Edible-podded peas,boiled,vegetables,vegetables
+518,Edible-podded peas,frozen,vegetables,vegetables
+519,Edible-podded peas,raw,vegetables,vegetables
+520,Eel,cooked,fish,fish
+521,Eel,raw,fish,fish
+522,Egg,boiled,eggs,chicken_eggs
+523,Egg,dried,eggs,chicken_eggs
+524,Egg,fried,eggs,chicken_eggs
+525,Egg,frozen,eggs,chicken_eggs
+526,Egg,raw,eggs,chicken_eggs
+527,Egg,scrambled,eggs,chicken_eggs
+528,Egg noodles,cooked,grains,pasta
+529,Egg noodles,raw,grains,pasta
+530,Egg white,dried,eggs,chicken_eggs
+531,Egg white,frozen,eggs,chicken_eggs
+532,Egg white,raw,eggs,chicken_eggs
+533,Egg yolk,dried,eggs,chicken_eggs
+534,Egg yolk,frozen,eggs,chicken_eggs
+535,Egg yolk,raw,eggs,chicken_eggs
+536,Eggplant,boiled,vegetables,vegetables
+537,Eggplant,raw,vegetables,vegetables
+538,Einkorn,raw,grains,grains
+539,Elderberries,raw,fruit,
+540,Elk,raw,meat,game
+541,Elk,roasted,meat,game
+542,Elk loin,broiled,meat,game
+543,Elk round,broiled,meat,game
+544,Elk tenderloin,broiled,meat,game
+545,Emu,broiled,meat,game
+546,Emu,raw,meat,game
+547,Emu top loin,broiled,meat,game
+548,Endive,raw,vegetables,vegetables
+549,Enoki mushroom,raw,vegetables,mushrooms
+550,Epazote,raw,vegetables,vegetables
+551,Eppaw,raw,vegetables,vegetables
+552,Escarole,boiled,vegetables,vegetables
+553,Evaporated milk,,dairy,milk
+554,Evaporated milk,canned,dairy,milk
+555,Extra firm tofu,,legumes,
+556,Farro,raw,grains,grains
+557,Fat free sour cream,,dairy,cream
+558,Fava beans,raw,vegetables,vegetables
+559,Feijoa,raw,fruit,
+560,Fennel,raw,vegetables,vegetables
+561,Fennel seed,,spices,
+562,Fenugreek seed,,spices,
+563,Feta cheese,,cheese,fresh
+564,Fiddlehead ferns,frozen,vegetables,vegetables
+565,Fiddlehead ferns,raw,vegetables,vegetables
+566,Figs,dried,fruit,
+567,Figs,raw,fruit,
+568,Figs,stewed,fruit,
+569,Fireweed,raw,vegetables,vegetables
+570,Firm tofu,,legumes,
+571,Firm tofu,raw,legumes,
+572,Flatfish,cooked,fish,fish
+573,Flatfish,raw,fish,fish
+574,Flaxseed,,nuts,
+575,Flaxseed oil,,fats,
+576,Flour,,grains,flour
+577,Fonio,raw,grains,grains
+578,Fontina cheese,,cheese,hard
+579,Fordhook lima beans,boiled,vegetables,vegetables
+580,Fordhook lima beans,frozen,vegetables,vegetables
+581,French beans,boiled,legumes,
+582,French beans,raw,legumes,
+583,Fresh-refrigerated pasta,cooked,grains,pasta
+584,Fresh-refrigerated pasta,raw,grains,pasta
+585,Frog legs,raw,fish,fish
+586,Fungi,dried,vegetables,mushrooms
+587,Garlic,raw,vegetables,vegetables
+588,Ginger,,spices,
+589,Ginger root,raw,vegetables,vegetables
+590,Ginkgo nuts,canned,nuts,
+591,Ginkgo nuts,dried,nuts,
+592,Ginkgo nuts,raw,nuts,
+593,Gjetost cheese,,cheese,hard
+594,Gluten-free pasta,cooked,grains,pasta
+595,Gluten-free pasta,raw,grains,pasta
+596,Goat,raw,meat,game
+597,Goat,roasted,meat,game
+598,Goat cheese,,cheese,fresh
+599,Goat milk,,dairy,milk
+600,Goji berries,dried,fruit,
+601,Goose,raw,meat,goose
+602,Goose,roasted,meat,goose
+603,Goose egg,raw,eggs,other_eggs
+604,Goose fat,,fats,
+605,Goose liver,raw,meat,goose
+606,Goose skin,raw,meat,goose
+607,Goose skin,roasted,meat,goose
+608,Gooseberries,raw,fruit,
+609,Gouda cheese,,cheese,hard
+610,Gourd,boiled,vegetables,vegetables
+611,Gourd,raw,vegetables,vegetables
+612,Grape leaves,canned,vegetables,vegetables
+613,Grape leaves,raw,vegetables,vegetables
+614,Grapefruit,raw,fruit,
+615,Grapes,raw,fruit,
+616,Grapeseed oil,,fats,
+617,Great northern beans,boiled,legumes,
+618,Great northern beans,canned,legumes,
+619,Great northern beans,raw,legumes,
+620,Greek yogurt,,dairy,yogurt
+621,Green cabbage,raw,vegetables,vegetables
+622,Green peas,boiled,vegetables,vegetables
+623,Green peas,canned,vegetables,vegetables
+624,Green peas,frozen,vegetables,vegetables
+625,Green peas,raw,vegetables,vegetables
+626,Green soybeans,boiled,vegetables,vegetables
+627,Green soybeans,raw,vegetables,vegetables
+628,Ground beef,baked,meat,beef
+629,Ground beef,cooked,meat,beef
+630,Ground beef,raw,meat,beef
+631,Ground bison,broiled,meat,game
+632,Ground bison,cooked,meat,game
+633,Ground bison,raw,meat,game
+634,Ground chicken,cooked,meat,chicken
+635,Ground chicken,raw,meat,chicken
+636,Ground deer,broiled,meat,game
+637,Ground deer,raw,meat,game
+638,Ground elk,broiled,meat,game
+639,Ground elk,raw,meat,game
+640,Ground emu,broiled,meat,game
+641,Ground emu,raw,meat,game
+642,Ground lamb,braised,meat,lamb
+643,Ground lamb,broiled,meat,lamb
+644,Ground lamb,raw,meat,lamb
+645,Ground ostrich,broiled,meat,game
+646,Ground ostrich,raw,meat,game
+647,Ground pork,broiled,meat,pork
+648,Ground pork,cooked,meat,pork
+649,Ground pork,raw,meat,pork
+650,Ground turkey,broiled,meat,turkey
+651,Ground turkey,cooked,meat,turkey
+652,Ground turkey,raw,meat,turkey
+653,Ground veal,broiled,meat,veal
+654,Ground veal,fried,meat,veal
+655,Ground veal,raw,meat,veal
+656,Groundcherries,raw,fruit,
+657,Grouper,cooked,fish,fish
+658,Grouper,raw,fish,fish
+659,Gruyere cheese,,cheese,hard
+660,Guavas,raw,fruit,
+661,Guinea hen,raw,meat,game
+662,Guinea hen skin,raw,meat,game
+663,Haddock,cooked,fish,fish
+664,Haddock,raw,fish,fish
+665,Haddock,smoked,fish,fish
+666,Half and half cream,,dairy,cream
+667,Halibut,cooked,fish,fish
+668,Halibut,frozen,fish,fish
+669,Halibut,raw,fish,fish
+670,Ham,,meat_products,ham
+671,Hard tofu,,legumes,
+672,Hazelnut oil,,fats,
+673,Hazelnuts or filberts,,nuts,
+674,Hazelnuts or filberts,raw,nuts,
+675,Hazelnuts or filberts,roasted,nuts,
+676,Hearts of palm,canned,vegetables,vegetables
+677,Hearts of palm,raw,vegetables,vegetables
+678,Heavy cream,,dairy,cream
+679,Heavy whipping cream,,dairy,cream
+680,Hemp seed,,nuts,
+681,Herring,cooked,fish,fish
+682,Herring,raw,fish,fish
+683,Herring fish oil,,fats,
+684,Hickorynuts,dried,nuts,
+685,Homemade pasta,cooked,grains,pasta
+686,Hominy,canned,grains,grains
+687,Honey,,sweets,sugar
+688,Honeydew melons,raw,fruit,
+689,Horse,raw,meat,game
+690,Horse,roasted,meat,game
+691,Hot chile peppers,dried,vegetables,vegetables
+692,Hot chili peppers,raw,vegetables,vegetables
+693,Hulled barley,,grains,grains
+694,Hungarian peppers,raw,vegetables,vegetables
+695,Hyacinth-beans,boiled,vegetables,vegetables
+696,Hyacinth-beans,raw,vegetables,vegetables
+697,Iceberg lettuce,raw,vegetables,vegetables
+698,Indian buffalo milk,,dairy,milk
+699,Irishmoss seaweed,raw,vegetables,vegetables
+700,Jackfruit,raw,fruit,
+701,Jalapeno peppers,raw,vegetables,vegetables
+702,Japanese noodles,cooked,grains,pasta
+703,Japanese noodles,raw,grains,pasta
+704,Java-plum,raw,fruit,
+705,Jellyfish,dried,fish,seafood
+706,Jerusalem-artichokes,raw,vegetables,vegetables
+707,Jew's ear,raw,vegetables,mushrooms
+708,Jujube,dried,fruit,
+709,Jujube,raw,fruit,
+710,Jute,boiled,vegetables,vegetables
+711,Jute,raw,vegetables,vegetables
+712,Kale,boiled,vegetables,vegetables
+713,Kale,frozen,vegetables,vegetables
+714,Kale,raw,vegetables,vegetables
+715,Kanpyo,dried,vegetables,vegetables
+716,Kelp seaweed,raw,vegetables,vegetables
+717,Khorasan,raw,grains,grains
+718,Kidney beans,boiled,legumes,
+719,Kidney beans,canned,legumes,
+720,Kidney beans,raw,legumes,
+721,King oyster mushroom,raw,vegetables,mushrooms
+722,Kiwifruit,raw,fruit,
+723,Kohlrabi,boiled,vegetables,vegetables
+724,Kohlrabi,raw,vegetables,vegetables
+725,Kumquats,raw,fruit,
+726,Lamb,boiled,meat,lamb
+727,Lamb,braised,meat,lamb
+728,Lamb,cooked,meat,lamb
+729,Lamb,fried,meat,lamb
+730,Lamb,frozen,meat,lamb
+731,Lamb,raw,meat,lamb
+732,Lamb,roasted,meat,lamb
+733,Lamb brain,braised,meat,lamb
+734,Lamb brain,fried,meat,lamb
+735,Lamb brain,raw,meat,lamb
+736,Lamb breast,braised,meat,lamb
+737,Lamb breast,raw,meat,lamb
+738,Lamb heart,boiled,meat,lamb
+739,Lamb heart,braised,meat,lamb
+740,Lamb heart,raw,meat,lamb
+741,Lamb kidney,braised,meat,lamb
+742,Lamb kidney,fried,meat,lamb
+743,Lamb kidney,raw,meat,lamb
+744,Lamb leg,braised,meat,lamb
+745,Lamb leg,broiled,meat,lamb
+746,Lamb leg,fried,meat,lamb
+747,Lamb leg,frozen,meat,lamb
+748,Lamb leg,raw,meat,lamb
+749,Lamb leg,roasted,meat,lamb
+750,Lamb liver,braised,meat,lamb
+751,Lamb liver,fried,meat,lamb
+752,Lamb liver,raw,meat,lamb
+753,Lamb loin,broiled,meat,lamb
+754,Lamb loin,fried,meat,lamb
+755,Lamb loin,frozen,meat,lamb
+756,Lamb loin,raw,meat,lamb
+757,Lamb loin,roasted,meat,lamb
+758,Lamb neck,braised,meat,lamb
+759,Lamb neck,raw,meat,lamb
+760,Lamb rib,broiled,meat,lamb
+761,Lamb rib,frozen,meat,lamb
+762,Lamb rib,grilled,meat,lamb
+763,Lamb rib,raw,meat,lamb
+764,Lamb rib,roasted,meat,lamb
+765,Lamb shank,braised,meat,lamb
+766,Lamb shank,raw,meat,lamb
+767,Lamb shoulder,braised,meat,lamb
+768,Lamb shoulder,broiled,meat,lamb
+769,Lamb shoulder,cooked,meat,lamb
+770,Lamb shoulder,frozen,meat,lamb
+771,Lamb shoulder,raw,meat,lamb
+772,Lamb shoulder,roasted,meat,lamb
+773,Lamb tenderloin,fried,meat,lamb
+774,Lamb tenderloin,raw,meat,lamb
+775,Lamb tenderloin,roasted,meat,lamb
+776,Lamb tongue,boiled,meat,lamb
+777,Lamb tongue,braised,meat,lamb
+778,Lamb tongue,raw,meat,lamb
+779,Lambsquarters,boiled,vegetables,vegetables
+780,Lambsquarters,raw,vegetables,vegetables
+781,Lard,,fats,
+782,Laver seaweed,raw,vegetables,vegetables
+783,Leeks,boiled,vegetables,vegetables
+784,Leeks,dried,vegetables,vegetables
+785,Leeks,raw,vegetables,vegetables
+786,Lemon grass,raw,vegetables,vegetables
+787,Lemon peel,raw,fruit,
+788,Lemons,raw,fruit,
+789,Lentils,boiled,legumes,
+790,Lentils,fried,vegetables,vegetables
+791,Lentils,raw,legumes,
+792,Lettuce,raw,vegetables,vegetables
+793,Light butter,,fats,
+794,Light cream,,dairy,cream
+795,Light sour cream,,dairy,cream
+796,Light whipping cream,,dairy,cream
+797,Lima beans,boiled,vegetables,vegetables
+798,Lima beans,canned,legumes,
+799,Lima beans,raw,vegetables,vegetables
+800,Limburger cheese,,cheese,soft_ripened
+801,Limes,raw,fruit,
+802,Ling,cooked,fish,fish
+803,Ling,raw,fish,fish
+804,Lingcod,cooked,fish,fish
+805,Lingcod,raw,fish,fish
+806,Lion's mane mushroom,raw,vegetables,mushrooms
+807,Litchis,dried,fruit,
+808,Litchis,raw,fruit,
+809,Lobster,boiled,fish,seafood
+810,Lobster,frozen,fish,seafood
+811,Lobster,raw,fish,seafood
+812,Loganberries,frozen,fruit,
+813,Longans,dried,fruit,
+814,Longans,raw,fruit,
+815,Loquats,raw,fruit,
+816,Lotus root,boiled,vegetables,vegetables
+817,Lotus root,raw,vegetables,vegetables
+818,Lotus seeds,dried,nuts,
+819,Lotus seeds,raw,nuts,
+820,Low fat buttermilk,,dairy,butter
+821,Low fat cheese,,cheese,hard
+822,Low fat yogurt,,dairy,yogurt
+823,Lowfat milk,,dairy,milk
+824,Lupins,boiled,legumes,
+825,Lupins,raw,legumes,
+826,Macadamia nuts,raw,nuts,
+827,Macadamia nuts,roasted,nuts,
+828,Macaroni,cooked,grains,pasta
+829,Macaroni,raw,grains,pasta
+830,Mace,,spices,
+831,Mackerel,canned,fish,fish
+832,Mackerel,cooked,fish,fish
+833,Mackerel,raw,fish,fish
+834,Mahimahi,cooked,fish,fish
+835,Mahimahi,frozen,fish,fish
+836,Mahimahi,raw,fish,fish
+837,Maitake mushroom,raw,vegetables,mushrooms
+838,Malabar spinach,cooked,vegetables,vegetables
+839,Mammy-apple,raw,fruit,
+840,Mandarin,raw,fruit,
+841,Mango,raw,fruit,
+842,Maple syrup,,sweets,sugar
+843,Marjoram,dried,spices,
+844,Menhaden fish oil,,fats,
+845,Mexican blend cheese,,cheese,hard
+846,Mexican cheese,,cheese,hard
+847,Milk,,dairy,milk
+848,Milkfish,cooked,fish,fish
+849,Milkfish,raw,fish,fish
+850,Millet,,grains,grains
+851,Millet,cooked,grains,grains
+852,Millet,raw,grains,grains
+853,Millet flour,,grains,flour
+854,Miso,,legumes,
+855,Monkfish,cooked,fish,fish
+856,Monkfish,raw,fish,fish
+857,Monterey cheese,,cheese,hard
+858,Monterey jack cheese,,cheese,hard
+859,Moose,raw,meat,game
+860,Moose,roasted,meat,game
+861,Morel mushrooms,raw,vegetables,mushrooms
+862,Mothbeans,boiled,legumes,
+863,Mothbeans,raw,legumes,
+864,Mountain yam,raw,vegetables,vegetables
+865,Mountain yam,steamed,vegetables,vegetables
+866,Mozzarella cheese,,cheese,fresh
+867,Muenster cheese,,cheese,hard
+868,Mulberries,raw,fruit,
+869,Mullet,cooked,fish,fish
+870,Mullet,raw,fish,fish
+871,Multigrain bread,,bakery,bread
+872,Mung beans,boiled,vegetables,vegetables
+873,Mung beans,canned,vegetables,vegetables
+874,Mung beans,fried,vegetables,vegetables
+875,Mung beans,raw,vegetables,vegetables
+876,Mungo beans,boiled,legumes,
+877,Mungo beans,raw,legumes,
+878,Mushrooms,canned,vegetables,mushrooms
+879,Muskrat,raw,meat,game
+880,Muskrat,roasted,meat,game
+881,Mussel,boiled,fish,seafood
+882,Mussel,raw,fish,seafood
+883,Mustard cabbage,raw,vegetables,vegetables
+884,Mustard greens,boiled,vegetables,vegetables
+885,Mustard greens,frozen,vegetables,vegetables
+886,Mustard greens,raw,vegetables,vegetables
+887,Mustard oil,,fats,
+888,Mustard seed,,spices,
+889,Mustard spinach,boiled,vegetables,vegetables
+890,Mustard spinach,raw,vegetables,vegetables
+891,Nance,frozen,fruit,
+892,Napa cabbage,cooked,vegetables,vegetables
+893,Naranjilla pulp,frozen,fruit,
+894,Natto,,legumes,
+895,Navy beans,boiled,vegetables,vegetables
+896,Navy beans,canned,legumes,
+897,Navy beans,raw,vegetables,vegetables
+898,Nectarines,raw,fruit,
+899,Neufchatel cheese,,cheese,fresh
+900,New Zealand spinach,boiled,vegetables,vegetables
+901,New Zealand spinach,raw,vegetables,vegetables
+902,Nonfat milk,,dairy,milk
+903,Nonfat milk,dried,dairy,milk
+904,Nonfat yogurt,,dairy,yogurt
+905,Nopales,cooked,vegetables,vegetables
+906,Nopales,raw,vegetables,vegetables
+907,Nutmeg,,spices,
+908,Nutmeg butter,,fats,
+909,Oat bran,cooked,grains,grains
+910,Oat bran,raw,grains,grains
+911,Oat flour,,grains,flour
+912,Oat milk,,dairy,plant_milk
+913,Oat oil,,fats,
+914,Oats,,cereals,flakes
+915,Oaxaca cheese,,cheese,hard
+916,Ocean perch,cooked,fish,fish
+917,Ocean perch,raw,fish,fish
+918,Octopus,boiled,fish,seafood
+919,Octopus,raw,fish,seafood
+920,Oheloberries,raw,fruit,
+921,Okra,boiled,vegetables,vegetables
+922,Okra,frozen,vegetables,vegetables
+923,Okra,raw,vegetables,vegetables
+924,Olive oil,,fats,
+925,Olives,canned,fruit,
+926,Onions,boiled,vegetables,vegetables
+927,Onions,dried,vegetables,vegetables
+928,Onions,frozen,vegetables,vegetables
+929,Onions,raw,vegetables,vegetables
+930,Opossum,roasted,meat,game
+931,Orange peel,raw,fruit,
+932,Oranges,raw,fruit,
+933,Oregano,dried,spices,
+934,Ostrich,cooked,meat,game
+935,Ostrich,raw,meat,game
+936,Ostrich leg,cooked,meat,game
+937,Ostrich leg,raw,meat,game
+938,Ostrich round,raw,meat,game
+939,Ostrich tenderloin,raw,meat,game
+940,Ostrich top loin,cooked,meat,game
+941,Ostrich top loin,raw,meat,game
+942,Oyster,boiled,fish,seafood
+943,Oyster,canned,fish,seafood
+944,Oyster,cooked,fish,seafood
+945,Oyster,raw,fish,seafood
+946,Oyster mushroom,raw,vegetables,mushrooms
+947,Palm oil,,fats,
+948,Papayas,raw,fruit,
+949,Paprika,,spices,
+950,Parmesan cheese,,cheese,hard
+951,Parmesan cheese,dried,cheese,hard
+952,Parsley,dried,vegetables,vegetables
+953,Parsley,raw,vegetables,vegetables
+954,Parsnips,boiled,vegetables,vegetables
+955,Parsnips,raw,vegetables,vegetables
+956,Pasilla peppers,dried,vegetables,vegetables
+957,Passion-fruit,raw,fruit,
+958,Pasta,cooked,grains,pasta
+959,Pasta,raw,grains,pasta
+960,Pastry flour,,grains,flour
+961,Peaches,dried,fruit,
+962,Peaches,raw,fruit,
+963,Peaches,stewed,fruit,
+964,Peanut butter,,legumes,
+965,Peanut flour,,legumes,
+966,Peanut oil,,fats,
+967,Peanuts,boiled,legumes,
+968,Peanuts,raw,legumes,
+969,Peanuts,roasted,legumes,
+970,Pearled barley,cooked,grains,grains
+971,Pearled barley,raw,grains,grains
+972,Pears,dried,fruit,
+973,Pears,raw,fruit,
+974,Pears,stewed,fruit,
+975,Peas,boiled,vegetables,vegetables
+976,Peas,raw,vegetables,vegetables
+977,Pecans,,nuts,
+978,Pecans,raw,nuts,
+979,Pecans,roasted,nuts,
+980,Pepeao,dried,vegetables,mushrooms
+981,Pepper,,spices,
+982,Pepper,raw,vegetables,vegetables
+983,Peppermint,raw,spices,
+984,Perch,cooked,fish,fish
+985,Perch,raw,fish,fish
+986,Persimmons,dried,fruit,
+987,Persimmons,raw,fruit,
+988,Pheasant,cooked,meat,game
+989,Pheasant,raw,meat,game
+990,Pheasant breast,raw,meat,game
+991,Pheasant leg,raw,meat,game
+992,Pheasant skin,raw,meat,game
+993,Pigeonpeas,boiled,vegetables,vegetables
+994,Pigeonpeas,raw,vegetables,vegetables
+995,Pike,cooked,fish,fish
+996,Pike,raw,fish,fish
+997,Pilinuts,dried,nuts,
+998,Pimento,canned,vegetables,vegetables
+999,Pine nuts,dried,nuts,
+1000,Pine nuts,raw,nuts,
+1001,Pineapple,raw,fruit,
+1002,Pink beans,boiled,legumes,
+1003,Pink beans,raw,legumes,
+1004,Pink or red lentils,raw,legumes,
+1005,Pinto beans,boiled,vegetables,vegetables
+1006,Pinto beans,canned,legumes,
+1007,Pinto beans,frozen,vegetables,vegetables
+1008,Pinto beans,raw,vegetables,vegetables
+1009,Pioppini mushroom,raw,vegetables,mushrooms
+1010,Pistachio nuts,raw,nuts,
+1011,Pistachio nuts,roasted,nuts,
+1012,Pitanga,raw,fruit,
+1013,Plantains,baked,fruit,
+1014,Plantains,boiled,fruit,
+1015,Plantains,fried,fruit,
+1016,Plantains,raw,fruit,
+1017,Plums,dried,fruit,
+1018,Plums,raw,fruit,
+1019,Plums,stewed,fruit,
+1020,Poblano peppers,raw,vegetables,vegetables
+1021,Pokeberry shoots,boiled,vegetables,vegetables
+1022,Pokeberry shoots,raw,vegetables,vegetables
+1023,Pollock,cooked,fish,fish
+1024,Pollock,raw,fish,fish
+1025,Pomegranates,raw,fruit,
+1026,Pompano,cooked,fish,fish
+1027,Pompano,raw,fish,fish
+1028,Poppy seed,,spices,
+1029,Poppyseed oil,,fats,
+1030,Pork,boiled,meat,pork
+1031,Pork,braised,meat,pork
+1032,Pork,broiled,meat,pork
+1033,Pork,dried,meat,pork
+1034,Pork,frozen,meat,pork
+1035,Pork,raw,meat,pork
+1036,Pork backribs,raw,meat,pork
+1037,Pork backribs,roasted,meat,pork
+1038,Pork bacon,cooked,meat_products,bacon
+1039,Pork belly,raw,meat,pork
+1040,Pork brain,braised,meat,pork
+1041,Pork brain,raw,meat,pork
+1042,Pork breast,broiled,meat,pork
+1043,Pork breast,raw,meat,pork
+1044,Pork chop,raw,meat,pork
+1045,Pork heart,braised,meat,pork
+1046,Pork heart,raw,meat,pork
+1047,Pork kidney,braised,meat,pork
+1048,Pork kidney,raw,meat,pork
+1049,Pork leg,braised,meat,pork
+1050,Pork leg,broiled,meat,pork
+1051,Pork leg,raw,meat,pork
+1052,Pork liver,braised,meat,pork
+1053,Pork liver,raw,meat,pork
+1054,Pork loin,braised,meat,pork
+1055,Pork loin,broiled,meat,pork
+1056,Pork loin,fried,meat,pork
+1057,Pork loin,raw,meat,pork
+1058,Pork loin,roasted,meat,pork
+1059,Pork rib,braised,meat,pork
+1060,Pork rib,broiled,meat,pork
+1061,Pork rib,fried,meat,pork
+1062,Pork rib,raw,meat,pork
+1063,Pork rib,roasted,meat,pork
+1064,Pork shoulder,braised,meat,pork
+1065,Pork shoulder,broiled,meat,pork
+1066,Pork shoulder,raw,meat,pork
+1067,Pork shoulder,roasted,meat,pork
+1068,Pork sirloin,braised,meat,pork
+1069,Pork sirloin,broiled,meat,pork
+1070,Pork sirloin,raw,meat,pork
+1071,Pork sirloin,roasted,meat,pork
+1072,Pork skin,raw,meat,pork
+1073,Pork spareribs,braised,meat,pork
+1074,Pork spareribs,raw,meat,pork
+1075,Pork spareribs,roasted,meat,pork
+1076,Pork tenderloin,broiled,meat,pork
+1077,Pork tenderloin,raw,meat,pork
+1078,Pork tenderloin,roasted,meat,pork
+1079,Pork tongue,braised,meat,pork
+1080,Pork tongue,raw,meat,pork
+1081,Pork top loin,braised,meat,pork
+1082,Pork top loin,broiled,meat,pork
+1083,Pork top loin,fried,meat,pork
+1084,Pork top loin,raw,meat,pork
+1085,Pork top loin,roasted,meat,pork
+1086,Port de salut cheese,,cheese,hard
+1087,Portabella mushrooms,grilled,vegetables,mushrooms
+1088,Portabella mushrooms,raw,vegetables,mushrooms
+1089,Potato flour,raw,vegetables,vegetables
+1090,Potato skin,baked,vegetables,vegetables
+1091,Potato skin,boiled,vegetables,vegetables
+1092,Potato skin,microwaved,vegetables,vegetables
+1093,Potato skin,raw,vegetables,vegetables
+1094,Potatoes,baked,vegetables,vegetables
+1095,Potatoes,boiled,vegetables,vegetables
+1096,Potatoes,canned,vegetables,vegetables
+1097,Potatoes,microwaved,vegetables,vegetables
+1098,Potatoes,raw,vegetables,vegetables
+1099,Potatoes,roasted,vegetables,vegetables
+1100,Pout,cooked,fish,fish
+1101,Pout,raw,fish,fish
+1102,Powdered sugar,,sweets,sugar
+1103,Prickly pears,raw,fruit,
+1104,Provolone cheese,,cheese,hard
+1105,Prunes,dried,fruit,
+1106,Prunes,stewed,fruit,
+1107,Pummelo,raw,fruit,
+1108,Pumpernickel bread,,bakery,bread
+1109,Pumpkin,boiled,vegetables,vegetables
+1110,Pumpkin,canned,vegetables,vegetables
+1111,Pumpkin,raw,vegetables,vegetables
+1112,Pumpkin and squash seed kernels,dried,nuts,
+1113,Pumpkin and squash seed kernels,roasted,nuts,
+1114,Pumpkin and squash seeds,roasted,nuts,
+1115,Pumpkin flowers,boiled,vegetables,vegetables
+1116,Pumpkin flowers,raw,vegetables,vegetables
+1117,Pumpkin leaves,boiled,vegetables,vegetables
+1118,Pumpkin leaves,raw,vegetables,vegetables
+1119,Pumpkin seeds,raw,nuts,
+1120,Purslane,boiled,vegetables,vegetables
+1121,Purslane,raw,vegetables,vegetables
+1122,Quail,cooked,meat,game
+1123,Quail,raw,meat,game
+1124,Quail breast,raw,meat,game
+1125,Quail egg,raw,eggs,other_eggs
+1126,Quail skin,raw,meat,game
+1127,Queso fresco cheese,,cheese,fresh
+1128,Queso fresco cheese,raw,cheese,fresh
+1129,Quinces,raw,fruit,
+1130,Quinoa,cooked,grains,grains
+1131,Quinoa,raw,grains,grains
+1132,Quinoa flour,,grains,flour
+1133,Rabbit,raw,meat,game
+1134,Rabbit,stewed,meat,game
+1135,Raccoon,roasted,meat,game
+1136,Radicchio,raw,vegetables,vegetables
+1137,Radish seeds,raw,vegetables,vegetables
+1138,Radishes,raw,vegetables,vegetables
+1139,Raisins,raw,fruit,
+1140,Raspberries,frozen,fruit,
+1141,Raspberries,raw,fruit,
+1142,Red cabbage,boiled,vegetables,vegetables
+1143,Red cabbage,raw,vegetables,vegetables
+1144,Red rice,raw,grains,rice
+1145,Red wine,,drinks,alcohol
+1146,Red wine vinegar,,spices,
+1147,Reduced fat milk,,dairy,milk
+1148,Reduced fat sour cream,,dairy,cream
+1149,Rhubarb,frozen,fruit,
+1150,Rhubarb,raw,fruit,
+1151,Rice,,dairy,plant_milk
+1152,Rice bran,,grains,grains
+1153,Rice bran oil,,fats,
+1154,Rice flour,,grains,flour
+1155,Rice milk,,dairy,plant_milk
+1156,Rice noodles,cooked,grains,rice
+1157,Rice noodles,raw,grains,rice
+1158,Ricotta cheese,,cheese,fresh
+1159,Rockfish,cooked,fish,fish
+1160,Rockfish,raw,fish,fish
+1161,Roe,cooked,fish,seafood
+1162,Roe,raw,fish,seafood
+1163,Romaine lettuce,raw,vegetables,vegetables
+1164,Romano cheese,,cheese,hard
+1165,Roquefort cheese,,cheese,soft_ripened
+1166,Rose-apples,raw,fruit,
+1167,Roselle,raw,fruit,
+1168,Rosemary,dried,spices,
+1169,Rosemary,raw,spices,
+1170,Roughy,cooked,fish,fish
+1171,Roughy,raw,fish,fish
+1172,Rowal,raw,fruit,
+1173,Ruffed Grouse,raw,meat,game
+1174,Rutabagas,boiled,vegetables,vegetables
+1175,Rutabagas,raw,vegetables,vegetables
+1176,Rye bread,,bakery,bread
+1177,Rye flour,,grains,flour
+1178,Rye grain,,grains,grains
+1179,Sablefish,cooked,fish,fish
+1180,Sablefish,raw,fish,fish
+1181,Sablefish,smoked,fish,fish
+1182,Safflower oil,,fats,
+1183,Safflower seed kernels,dried,nuts,
+1184,Saffron,,spices,
+1185,Sage,,spices,
+1186,Salmon,boiled,fish,fish
+1187,Salmon,canned,fish,fish
+1188,Salmon,cooked,fish,fish
+1189,Salmon,raw,fish,fish
+1190,Salmon,smoked,fish,fish
+1191,Salmon fish oil,,fats,
+1192,Salsify,boiled,vegetables,vegetables
+1193,Salsify,raw,vegetables,vegetables
+1194,Salt,,spices,
+1195,Salted and fermented tofu,,legumes,
+1196,Sapodilla,raw,fruit,
+1197,Sapote,raw,fruit,
+1198,Sardine fish oil,,fats,
+1199,Savory,,spices,
+1200,Savoy cabbage,boiled,vegetables,vegetables
+1201,Savoy cabbage,raw,vegetables,vegetables
+1202,Scallops,frozen,fish,fish
+1203,Scallops,raw,fish,fish
+1204,Scallops,steamed,fish,fish
+1205,Scup,cooked,fish,fish
+1206,Scup,raw,fish,fish
+1207,Sea bass,cooked,fish,fish
+1208,Sea bass,frozen,fish,fish
+1209,Sea bass,raw,fish,fish
+1210,Seatrout,cooked,fish,fish
+1211,Seatrout,raw,fish,fish
+1212,Semolina,,grains,flour
+1213,Semolina flour,,grains,flour
+1214,Serrano peppers,raw,vegetables,vegetables
+1215,Sesame butter,,nuts,
+1216,Sesame butter,raw,nuts,
+1217,Sesame butter,roasted,nuts,
+1218,Sesame flour,,nuts,
+1219,Sesame oil,,fats,
+1220,Sesame seed kernels,,nuts,
+1221,Sesame seed kernels,dried,nuts,
+1222,Sesame seeds,dried,nuts,
+1223,Sesame seeds,roasted,nuts,
+1224,Sesbania flower,raw,vegetables,vegetables
+1225,Sesbania flower,steamed,vegetables,vegetables
+1226,Shad,cooked,fish,fish
+1227,Shad,raw,fish,fish
+1228,Shallots,dried,vegetables,vegetables
+1229,Shallots,raw,vegetables,vegetables
+1230,Shark,raw,fish,fish
+1231,Sheanut oil,,fats,
+1232,Sheep milk,,dairy,milk
+1233,Sheepshead,cooked,fish,fish
+1234,Sheepshead,raw,fish,fish
+1235,Shiitake mushrooms,cooked,vegetables,mushrooms
+1236,Shiitake mushrooms,dried,vegetables,mushrooms
+1237,Shiitake mushrooms,fried,vegetables,mushrooms
+1238,Shiitake mushrooms,raw,vegetables,mushrooms
+1239,Shrimp,boiled,fish,seafood
+1240,Shrimp,canned,fish,seafood
+1241,Shrimp,cooked,fish,seafood
+1242,Shrimp,raw,fish,seafood
+1243,Sisymbrium sp. seeds,dried,nuts,
+1244,Skim milk yogurt,,dairy,yogurt
+1245,Small white beans,boiled,legumes,
+1246,Small white beans,raw,legumes,
+1247,Smelt,cooked,fish,fish
+1248,Smelt,raw,fish,fish
+1249,Snail,raw,fish,seafood
+1250,Snap beans,boiled,vegetables,vegetables
+1251,Snap beans,canned,vegetables,vegetables
+1252,Snap beans,frozen,vegetables,vegetables
+1253,Snap beans,microwaved,vegetables,vegetables
+1254,Snap beans,raw,vegetables,vegetables
+1255,Snapper,cooked,fish,fish
+1256,Snapper,frozen,fish,fish
+1257,Snapper,raw,fish,fish
+1258,Snow crab,frozen,fish,seafood
+1259,Soft tofu,,legumes,
+1260,Sorghum,raw,grains,grains
+1261,Sorghum bran,raw,grains,grains
+1262,Sorghum flour,,grains,flour
+1263,Sorghum flour,raw,grains,flour
+1264,Sorghum grain,,grains,grains
+1265,Sour cream,,dairy,cream
+1266,Soursop,raw,fruit,
+1267,Soy flour,,legumes,
+1268,Soy flour,raw,legumes,
+1269,Soy flour,roasted,legumes,
+1270,Soybean oil,,fats,
+1271,Soybeans,,legumes,
+1272,Soybeans,boiled,legumes,
+1273,Soybeans,fried,vegetables,vegetables
+1274,Soybeans,raw,vegetables,vegetables
+1275,Soybeans,roasted,legumes,
+1276,Soybeans,steamed,vegetables,vegetables
+1277,Soymilk,,legumes,
+1278,Spaghetti,cooked,grains,pasta
+1279,Spaghetti,raw,grains,pasta
+1280,Spearmint,dried,spices,
+1281,Spearmint,raw,spices,
+1282,Spelt,cooked,grains,grains
+1283,Spelt,raw,grains,grains
+1284,Spelt flour,,grains,flour
+1285,Spinach,boiled,vegetables,vegetables
+1286,Spinach,canned,vegetables,vegetables
+1287,Spinach,frozen,vegetables,vegetables
+1288,Spinach,raw,vegetables,vegetables
+1289,Spiny lobster,boiled,fish,seafood
+1290,Spiny lobster,raw,fish,seafood
+1291,Spirits,,drinks,alcohol
+1292,Spirulina seaweed,dried,vegetables,vegetables
+1293,Spirulina seaweed,raw,vegetables,vegetables
+1294,Split peas,boiled,legumes,
+1295,Spot,cooked,fish,fish
+1296,Spot,raw,fish,fish
+1297,Spring onions,raw,vegetables,vegetables
+1298,Squab,raw,meat,game
+1299,Squab skin,raw,meat,game
+1300,Squid,fried,fish,seafood
+1301,Squid,frozen,fish,seafood
+1302,Squid,raw,fish,seafood
+1303,Squirrel,raw,meat,game
+1304,Squirrel,roasted,meat,game
+1305,Straw mushrooms,canned,vegetables,mushrooms
+1306,Strawberries,frozen,fruit,
+1307,Strawberries,raw,fruit,
+1308,Sturgeon,cooked,fish,fish
+1309,Sturgeon,raw,fish,fish
+1310,Sturgeon,smoked,fish,fish
+1311,Sucker,cooked,fish,fish
+1312,Sucker,raw,fish,fish
+1313,Sugar,,sweets,sugar
+1314,Sugar-apples,raw,fruit,
+1315,Summer squash,boiled,vegetables,vegetables
+1316,Summer squash,canned,vegetables,vegetables
+1317,Summer squash,frozen,vegetables,vegetables
+1318,Summer squash,raw,vegetables,vegetables
+1319,Sunfish,cooked,fish,fish
+1320,Sunfish,raw,fish,fish
+1321,Sunflower oil,,fats,
+1322,Sunflower seed,raw,nuts,
+1323,Sunflower seed butter,,nuts,
+1324,Sunflower seed flour,,nuts,
+1325,Sunflower seed kernels,,nuts,
+1326,Sunflower seed kernels,dried,nuts,
+1327,Sunflower seed kernels,roasted,nuts,
+1328,Sunflower seed kernels from shell,roasted,nuts,
+1329,Sweet corn,boiled,vegetables,vegetables
+1330,Sweet corn,canned,vegetables,vegetables
+1331,Sweet corn,frozen,vegetables,vegetables
+1332,Sweet corn,raw,vegetables,vegetables
+1333,Sweet peppers,boiled,vegetables,vegetables
+1334,Sweet peppers,dried,vegetables,vegetables
+1335,Sweet peppers,frozen,vegetables,vegetables
+1336,Sweet peppers,raw,vegetables,vegetables
+1337,Sweet potato,baked,vegetables,vegetables
+1338,Sweet potato,boiled,vegetables,vegetables
+1339,Sweet potato,canned,vegetables,vegetables
+1340,Sweet potato,frozen,vegetables,vegetables
+1341,Sweet potato,raw,vegetables,vegetables
+1342,Sweet potato leaves,raw,vegetables,vegetables
+1343,Sweet potato leaves,steamed,vegetables,vegetables
+1344,Sweet whey,,dairy,fermented
+1345,Sweet whey,dried,dairy,fermented
+1346,Swiss chard,boiled,vegetables,vegetables
+1347,Swiss chard,raw,vegetables,vegetables
+1348,Swiss cheese,,cheese,hard
+1349,Swordfish,cooked,fish,fish
+1350,Swordfish,frozen,fish,fish
+1351,Swordfish,raw,fish,fish
+1352,Tahitian taro,cooked,vegetables,vegetables
+1353,Tahitian taro,raw,vegetables,vegetables
+1354,Tamarinds,raw,fruit,
+1355,Tangerines,raw,fruit,
+1356,Tapioca,raw,grains,grains
+1357,Taro,cooked,vegetables,vegetables
+1358,Taro,raw,vegetables,vegetables
+1359,Taro leaves,raw,vegetables,vegetables
+1360,Taro leaves,steamed,vegetables,vegetables
+1361,Taro shoots,cooked,vegetables,vegetables
+1362,Taro shoots,raw,vegetables,vegetables
+1363,Tarragon,dried,spices,
+1364,Tea,,drinks,hot
+1365,Teaseed oil,,fats,
+1366,Teff,cooked,grains,grains
+1367,Teff,raw,grains,grains
+1368,Tempeh,,legumes,
+1369,Tempeh,cooked,legumes,
+1370,Thyme,dried,spices,
+1371,Thyme,raw,spices,
+1372,Tilapia,cooked,fish,fish
+1373,Tilapia,raw,fish,fish
+1374,Tilefish,cooked,fish,fish
+1375,Tilefish,raw,fish,fish
+1376,Tilsit cheese,,cheese,hard
+1377,Tofu,fried,legumes,
+1378,Tofu,raw,legumes,
+1379,Tomatillos,raw,vegetables,vegetables
+1380,Tomatoes,canned,vegetables,vegetables
+1381,Tomatoes,cooked,vegetables,vegetables
+1382,Tomatoes,dried,vegetables,vegetables
+1383,Tomatoes,raw,vegetables,vegetables
+1384,Tomatoes,stewed,vegetables,vegetables
+1385,Tomatoseed oil,,fats,
+1386,Tree fern,cooked,vegetables,vegetables
+1387,Triticale,,grains,grains
+1388,Triticale flour,,grains,flour
+1389,Trout,cooked,fish,fish
+1390,Trout,raw,fish,fish
+1391,Tuna,canned,fish,fish
+1392,Tuna,cooked,fish,fish
+1393,Tuna,frozen,fish,fish
+1394,Tuna,raw,fish,fish
+1395,Turbot,cooked,fish,fish
+1396,Turbot,raw,fish,fish
+1397,Turkey,canned,meat,turkey
+1398,Turkey,raw,meat,turkey
+1399,Turkey,roasted,meat,turkey
+1400,Turkey back,raw,meat,turkey
+1401,Turkey back,roasted,meat,turkey
+1402,Turkey breast,raw,meat,turkey
+1403,Turkey breast,roasted,meat,turkey
+1404,Turkey dark meat,raw,meat,turkey
+1405,Turkey dark meat,roasted,meat,turkey
+1406,Turkey drumstick,raw,meat,turkey
+1407,Turkey drumstick,roasted,meat,turkey
+1408,Turkey drumstick,smoked,meat,turkey
+1409,Turkey egg,raw,eggs,other_eggs
+1410,Turkey fat,,fats,
+1411,Turkey giblets,boiled,meat,turkey
+1412,Turkey giblets,raw,meat,turkey
+1413,Turkey gizzard,boiled,meat,turkey
+1414,Turkey gizzard,raw,meat,turkey
+1415,Turkey heart,boiled,meat,turkey
+1416,Turkey heart,raw,meat,turkey
+1417,Turkey leg,raw,meat,turkey
+1418,Turkey leg,roasted,meat,turkey
+1419,Turkey light meat,raw,meat,turkey
+1420,Turkey light meat,roasted,meat,turkey
+1421,Turkey liver,boiled,meat,turkey
+1422,Turkey liver,raw,meat,turkey
+1423,Turkey neck,boiled,meat,turkey
+1424,Turkey neck,raw,meat,turkey
+1425,Turkey skin,raw,meat,turkey
+1426,Turkey skin,roasted,meat,turkey
+1427,Turkey skin,smoked,meat,turkey
+1428,Turkey thigh,raw,meat,turkey
+1429,Turkey thigh,roasted,meat,turkey
+1430,Turkey wing,raw,meat,turkey
+1431,Turkey wing,roasted,meat,turkey
+1432,Turkey wing,smoked,meat,turkey
+1433,Turmeric,,spices,
+1434,Turnip greens,boiled,vegetables,vegetables
+1435,Turnip greens,canned,vegetables,vegetables
+1436,Turnip greens,frozen,vegetables,vegetables
+1437,Turnip greens,raw,vegetables,vegetables
+1438,Turnips,boiled,vegetables,vegetables
+1439,Turnips,frozen,vegetables,vegetables
+1440,Turnips,raw,vegetables,vegetables
+1441,Turtle,raw,fish,fish
+1442,Ucuhuba butter,,fats,
+1443,Veal,braised,meat,veal
+1444,Veal,cooked,meat,veal
+1445,Veal,raw,meat,veal
+1446,Veal brain,braised,meat,veal
+1447,Veal brain,fried,meat,veal
+1448,Veal brain,raw,meat,veal
+1449,Veal breast,braised,meat,veal
+1450,Veal breast,raw,meat,veal
+1451,Veal heart,braised,meat,veal
+1452,Veal heart,raw,meat,veal
+1453,Veal kidney,braised,meat,veal
+1454,Veal kidney,raw,meat,veal
+1455,Veal leg,braised,meat,veal
+1456,Veal leg,grilled,meat,veal
+1457,Veal leg,raw,meat,veal
+1458,Veal leg,roasted,meat,veal
+1459,Veal liver,braised,meat,veal
+1460,Veal liver,fried,meat,veal
+1461,Veal liver,raw,meat,veal
+1462,Veal loin,braised,meat,veal
+1463,Veal loin,grilled,meat,veal
+1464,Veal loin,raw,meat,veal
+1465,Veal loin,roasted,meat,veal
+1466,Veal rib,braised,meat,veal
+1467,Veal rib,raw,meat,veal
+1468,Veal rib,roasted,meat,veal
+1469,Veal shank,braised,meat,veal
+1470,Veal shank,raw,meat,veal
+1471,Veal shoulder,braised,meat,veal
+1472,Veal shoulder,grilled,meat,veal
+1473,Veal shoulder,raw,meat,veal
+1474,Veal shoulder,roasted,meat,veal
+1475,Veal sirloin,braised,meat,veal
+1476,Veal sirloin,raw,meat,veal
+1477,Veal sirloin,roasted,meat,veal
+1478,Veal tongue,braised,meat,veal
+1479,Veal tongue,raw,meat,veal
+1480,Vegetable oil,,fats,
+1481,Vermicelli,,legumes,
+1482,Vinespinach,raw,vegetables,vegetables
+1483,Vital wheat gluten,,grains,grains
+1484,Wakame seaweed,raw,vegetables,vegetables
+1485,Walnut oil,,fats,
+1486,Walnuts,,nuts,
+1487,Walnuts,dried,nuts,
+1488,Walnuts,raw,nuts,
+1489,Walnuts,roasted,nuts,
+1490,Wasabi,raw,vegetables,vegetables
+1491,Water,,drinks,water
+1492,Water convolvulus,boiled,vegetables,vegetables
+1493,Water convolvulus,raw,vegetables,vegetables
+1494,Waterchestnuts,raw,vegetables,vegetables
+1495,Watercress,raw,vegetables,vegetables
+1496,Watermelon,raw,fruit,
+1497,Watermelon seed kernels,dried,nuts,
+1498,Waxgourd,boiled,vegetables,vegetables
+1499,Waxgourd,raw,vegetables,vegetables
+1500,Wheat,,grains,grains
+1501,Wheat bran,,grains,grains
+1502,Wheat flour,,grains,flour
+1503,Wheat germ,,grains,grains
+1504,Wheat germ oil,,fats,
+1505,Whelk,boiled,fish,seafood
+1506,Whelk,raw,fish,seafood
+1507,White beans,boiled,legumes,
+1508,White beans,canned,legumes,
+1509,White beans,raw,legumes,
+1510,White bread,,bakery,bread
+1511,White button mushrooms,raw,vegetables,mushrooms
+1512,White cheese,,cheese,fresh
+1513,White cornmeal,,grains,grains
+1514,White mushrooms,boiled,vegetables,mushrooms
+1515,White mushrooms,fried,vegetables,mushrooms
+1516,White mushrooms,microwaved,vegetables,mushrooms
+1517,White mushrooms,raw,vegetables,mushrooms
+1518,White rice,cooked,grains,rice
+1519,White rice,raw,grains,rice
+1520,White sorghum grain,raw,grains,grains
+1521,White wheat flour,,grains,flour
+1522,White wine,,drinks,alcohol
+1523,Whitefish,cooked,fish,fish
+1524,Whitefish,raw,fish,fish
+1525,Whitefish,smoked,fish,fish
+1526,Whiting,cooked,fish,fish
+1527,Whiting,raw,fish,fish
+1528,Whole milk,,dairy,milk
+1529,Whole milk,dried,dairy,milk
+1530,Whole milk yogurt,,dairy,yogurt
+1531,Whole wheat flour,,grains,flour
+1532,Whole-grain cornmeal,,grains,grains
+1533,Whole-grain wheat flour,,grains,flour
+1534,Whole-wheat bread,,bakery,bread
+1535,Whole-wheat pasta,cooked,grains,pasta
+1536,Whole-wheat pasta,raw,grains,pasta
+1537,Whole-wheat roll,,bakery,rolls
+1538,Wild rice,cooked,grains,rice
+1539,Wild rice,raw,grains,rice
+1540,Wine,,drinks,alcohol
+1541,Winged bean leaves,raw,vegetables,vegetables
+1542,Winged bean tuber,raw,vegetables,vegetables
+1543,Winged beans,boiled,vegetables,vegetables
+1544,Winged beans,raw,vegetables,vegetables
+1545,Winter squash,baked,vegetables,vegetables
+1546,Winter squash,boiled,vegetables,vegetables
+1547,Winter squash,frozen,vegetables,vegetables
+1548,Winter squash,raw,vegetables,vegetables
+1549,Wolffish,cooked,fish,fish
+1550,Wolffish,raw,fish,fish
+1551,Yam,baked,vegetables,vegetables
+1552,Yam,raw,vegetables,vegetables
+1553,Yambean,boiled,vegetables,vegetables
+1554,Yambean,raw,vegetables,vegetables
+1555,Yardlong bean,boiled,vegetables,vegetables
+1556,Yardlong bean,raw,vegetables,vegetables
+1557,Yautia,raw,vegetables,vegetables
+1558,Yellow beans,boiled,legumes,
+1559,Yellow beans,raw,legumes,
+1560,Yellow corn,microwaved,vegetables,vegetables
+1561,Yellow cornmeal,,grains,grains
+1562,Yellowtail,cooked,fish,fish
+1563,Yellowtail,raw,fish,fish

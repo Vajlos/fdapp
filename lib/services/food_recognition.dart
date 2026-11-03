@@ -25,7 +25,8 @@ class RecognizedFood {
   final FoodGroup group;
   final int grams;
 
-  FoodItem toFoodItem() => FoodItem(name, group, grams, prep: prep, nameEn: nameEn);
+  FoodItem toFoodItem() =>
+      FoodItem(name, group, grams, prep: prep, nameEn: nameEn);
 
   factory RecognizedFood.fromJson(Map<String, dynamic> json) {
     return RecognizedFood(
@@ -51,7 +52,8 @@ const _modelName = 'gemini-3.1-flash-lite';
 
 // Názov je v jazyku aplikácie (hľadá sa v API v tom istom jazyku),
 // name_en je záloha po anglicky. Zložené jedlá sa rozkladajú na potraviny.
-String _prompt(AppLanguage language) => '''
+String _prompt(AppLanguage language) =>
+    '''
 You are the vision step of a food diary app. List every single (whole) food
 visible in the photo.
 
@@ -83,7 +85,7 @@ final _schema = Schema.object(
           'name': Schema.string(),
           'name_en': Schema.string(),
           'preparation': Schema.enumString(
-            enumValues: [for (final p in FoodPrep.values) p.name],
+            enumValues: [for (final p in FoodPrep.aiValues) p.name],
           ),
           'group': Schema.enumString(
             enumValues: [for (final g in FoodGroup.values) g.name],

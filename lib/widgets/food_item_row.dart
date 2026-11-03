@@ -6,11 +6,7 @@ import 'food_emoji_avatar.dart';
 /// Riadok jednej potraviny v jedle: farba skupiny, názov z API
 /// (alebo od AI, kým nie je vybraná), kalórie a gramy.
 class FoodItemRow extends StatelessWidget {
-  const FoodItemRow({
-    super.key,
-    required this.item,
-    required this.onTap,
-  });
+  const FoodItemRow({super.key, required this.item, required this.onTap});
 
   final FoodItem item;
   final VoidCallback onTap;
@@ -64,7 +60,9 @@ class FoodItemRow extends StatelessWidget {
                           : '${item.kcal.round()} kcal',
                       style: TextStyle(
                         fontSize: 12,
-                        fontWeight: food == null ? FontWeight.w700 : FontWeight.w400,
+                        fontWeight: food == null
+                            ? FontWeight.w700
+                            : FontWeight.w400,
                         color: food == null
                             ? Colors.red.shade400
                             : scheme.onSurface.withValues(alpha: 0.6),

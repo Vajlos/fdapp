@@ -38,8 +38,16 @@ Future<Uint8List> prepareMealPhoto(Uint8List bytes) {
     final longest = image.width > image.height ? image.width : image.height;
     if (longest > maxPhotoSide) {
       image = image.width >= image.height
-          ? img.copyResize(image, width: maxPhotoSide, interpolation: img.Interpolation.average)
-          : img.copyResize(image, height: maxPhotoSide, interpolation: img.Interpolation.average);
+          ? img.copyResize(
+              image,
+              width: maxPhotoSide,
+              interpolation: img.Interpolation.average,
+            )
+          : img.copyResize(
+              image,
+              height: maxPhotoSide,
+              interpolation: img.Interpolation.average,
+            );
     }
     return img.encodeJpg(image, quality: jpegQuality);
   });

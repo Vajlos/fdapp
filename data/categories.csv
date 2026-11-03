@@ -1,0 +1,76 @@
+category,sub_category,sk,cs,en
+meat,,Mäso,Maso,Meat
+meat,chicken,Kuracie,Kuřecí,Chicken
+meat,turkey,Morčacie,Krůtí,Turkey
+meat,pork,Bravčové,Vepřové,Pork
+meat,beef,Hovädzie,Hovězí,Beef
+meat,veal,Teľacie,Telecí,Veal
+meat,lamb,Jahňacie,Jehněčí,Lamb
+meat,duck,Kačacie,Kachní,Duck
+meat,goose,Husacie,Husí,Goose
+meat,game,Divina,Zvěřina,Game
+meat,other,Iné mäso,Jiné maso,Other meat
+meat_products,,Mäsové výrobky,Masné výrobky,Meat products
+meat_products,ham,Šunky,Šunky,Ham
+meat_products,salami,Salámy,Salámy,Salami
+meat_products,sausages,Párky a klobásy,Párky a klobásy,Sausages
+meat_products,bacon,Slanina,Slanina,Bacon
+meat_products,pate,Paštéty,Paštiky,Pâté
+meat_products,traditional,Tlačenka a zabíjačkové,Tlačenka a zabijačkové,Brawn and blood sausages
+fish,,Ryby a morské plody,Ryby a mořské plody,Fish and seafood
+fish,fish,Ryby,Ryby,Fish
+fish,seafood,Morské plody,Mořské plody,Seafood
+eggs,,Vajcia,Vejce,Eggs
+eggs,chicken_eggs,Slepačie vajcia,Slepičí vejce,Chicken eggs
+eggs,other_eggs,Iné vajcia,Jiná vejce,Other eggs
+cheese,,Syry,Sýry,Cheese
+cheese,hard,Tvrdé a polotvrdé,Tvrdé a polotvrdé,Hard and semi-hard
+cheese,soft_ripened,Plesňové a zrejúce,Plísňové a zrající,Mould and soft-ripened
+cheese,fresh,Čerstvé,Čerstvé,Fresh
+cheese,processed,Tavené,Tavené,Processed
+cheese,traditional,Ovčie a tradičné,Ovčí a tradiční,Sheep and traditional
+dairy,,Mliečne výrobky,Mléčné výrobky,Dairy
+dairy,milk,Mlieko,Mléko,Milk
+dairy,yogurt,Jogurty,Jogurty,Yogurt
+dairy,fermented,Kefíry a acidofilné,Kefíry a zakysané,Kefir and fermented milk
+dairy,quark,Tvaroh,Tvaroh,Quark
+dairy,cream,Smotana,Smetana,Cream
+dairy,butter,Maslo,Máslo,Butter
+dairy,plant_milk,Rastlinné nápoje,Rostlinné nápoje,Plant-based drinks
+cereals,,Cereálie,Cereálie,Cereals
+cereals,breakfast,Raňajkové cereálie,Snídaňové cereálie,Breakfast cereals
+cereals,muesli,Müsli a granola,Müsli a granola,Muesli and granola
+cereals,flakes,Vločky,Vločky,Flakes
+cereals,porridge,Kaše,Kaše,Porridge
+cereals,bars,Cereálne tyčinky,Cereální tyčinky,Cereal bars
+bakery,,Pečivo,Pečivo,Bakery
+bakery,bread,Chlieb,Chléb,Bread
+bakery,rolls,Rožky a žemle,Rohlíky a housky,Rolls
+bakery,other,Iné pečivo,Jiné pečivo,Other bakery
+grains,,"Obilniny, ryža a cestoviny","Obiloviny, rýže a těstoviny","Grains, rice and pasta"
+grains,rice,Ryža,Rýže,Rice
+grains,pasta,Cestoviny,Těstoviny,Pasta
+grains,flour,Múka,Mouka,Flour
+grains,grains,Obilniny a zrná,Obiloviny a zrna,Grains
+sides,,Prílohy,Přílohy,Side dishes
+sides,dumplings,Knedle,Knedlíky,Dumplings
+sides,potato,Zemiakové prílohy,Bramborové přílohy,Potato sides
+vegetables,,Zelenina,Zelenina,Vegetables
+vegetables,mushrooms,Huby,Houby,Mushrooms
+vegetables,vegetables,Zelenina,Zelenina,Vegetables
+fruit,,Ovocie,Ovoce,Fruit
+legumes,,Strukoviny,Luštěniny,Legumes
+nuts,,Orechy a semená,Ořechy a semena,Nuts and seeds
+fats,,Tuky a oleje,Tuky a oleje,Fats and oils
+sweets,,Sladkosti,Sladkosti,Sweets
+sweets,chocolate,Čokolády,Čokolády,Chocolate
+sweets,biscuits,Sušienky a oblátky,Sušenky a oplatky,Biscuits and wafers
+sweets,candies,Cukríky,Bonbony,Candies
+sweets,sugar,"Cukor, med a sirupy","Cukr, med a sirupy","Sugar, honey and syrups"
+drinks,,Nápoje,Nápoje,Drinks
+drinks,soft_drinks,Limonády,Limonády,Soft drinks
+drinks,juices,Džúsy,Džusy,Juices
+drinks,alcohol,Alkohol,Alkohol,Alcohol
+drinks,hot,Káva a čaj,Káva a čaj,Coffee and tea
+drinks,water,Voda,Voda,Water
+spices,,Koreniny a dochucovadlá,Koření a dochucovadla,Spices and condiments

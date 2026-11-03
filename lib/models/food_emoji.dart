@@ -27,11 +27,32 @@ String? _lookup(String text) {
 
 /// Hlavné názvy, ktoré sú len kategóriou – hľadá sa podľa druhej časti.
 const _generic = {
-  'beverages', 'beverage', 'alcoholic beverage', 'alcoholic beverages',
-  'nuts', 'seeds', 'fish', 'cereals', 'cereals ready-to-eat',
-  'candies', 'vegetables', 'juice', 'oil', 'snacks', 'game meat',
-  'crustaceans', 'mollusks', 'sweeteners', 'syrups', 'toppings', 'desserts',
-  'frozen novelties', 'poultry', 'seasoning mix', 'fat', 'sugars',
+  'beverages',
+  'beverage',
+  'alcoholic beverage',
+  'alcoholic beverages',
+  'nuts',
+  'seeds',
+  'fish',
+  'cereals',
+  'cereals ready-to-eat',
+  'candies',
+  'vegetables',
+  'juice',
+  'oil',
+  'snacks',
+  'game meat',
+  'crustaceans',
+  'mollusks',
+  'sweeteners',
+  'syrups',
+  'toppings',
+  'desserts',
+  'frozen novelties',
+  'poultry',
+  'seasoning mix',
+  'fat',
+  'sugars',
 };
 
 /// Pravidlá sa skúšajú v poradí – konkrétnejšie musia byť skôr
@@ -78,14 +99,20 @@ const _table = [
   ('rice|risotto', '🍚'),
   ('oat|oatmeal|granola|muesli|bran|cereal', '🥣'),
   ('bread|roll|bun|toast|biscuit|muffin|crouton|cracker|rusk|pita', '🍞'),
-  ('flour|wheat|barley|rye|millet|quinoa|bulgur|buckwheat|spelt|teff|'
-      'sorghum|semolina|amaranth|grain', '🌾'),
+  (
+    'flour|wheat|barley|rye|millet|quinoa|bulgur|buckwheat|spelt|teff|'
+        'sorghum|semolina|amaranth|grain',
+    '🌾',
+  ),
   // orechy (pred maslom a mliekom)
   ('peanut', '🥜'),
   ('coconut', '🥥'),
   ('chestnut', '🌰'),
-  ('nut|almond|walnut|cashew|pistachio|hazelnut|pecan|macadamia|filbert|'
-      'brazilnut|pine nut', '🥜'),
+  (
+    'nut|almond|walnut|cashew|pistachio|hazelnut|pecan|macadamia|filbert|'
+        'brazilnut|pine nut',
+    '🥜',
+  ),
   ('seed|sesame|sunflower|chia|flax|tahini', '🌰'),
   // mliečne a vajcia
   ('cheese', '🧀'),
@@ -95,18 +122,27 @@ const _table = [
   // mäso a ryby
   ('bacon', '🥓'),
   ('sausage|frankfurter|hot dog|bratwurst|kielbasa|wurst|beerwurst', '🌭'),
-  ('chicken|turkey|duck|goose|hen|quail|pheasant|squab|emu|ostrich|'
-      'poultry|broiler|fryer|cornish', '🍗'),
-  ('ham|salami|bologna|pastrami|luncheon meat|pate|meatball|lamb|mutton|'
-      'goat|venison|rabbit|game meat', '🍖'),
+  (
+    'chicken|turkey|duck|goose|hen|quail|pheasant|squab|emu|ostrich|'
+        'poultry|broiler|fryer|cornish',
+    '🍗',
+  ),
+  (
+    'ham|salami|bologna|pastrami|luncheon meat|pate|meatball|lamb|mutton|'
+        'goat|venison|rabbit|game meat',
+    '🍖',
+  ),
   ('beef|veal|bison|steak|pork|loin', '🥩'),
   ('shrimp|prawn', '🦐'),
   ('crab', '🦀'),
   ('lobster|crayfish|crustacean', '🦞'),
   ('oyster|clam|mussel|scallop|mollusk|snail', '🦪'),
   ('squid|octopus|cuttlefish', '🦑'),
-  ('fish|salmon|tuna|cod|trout|herring|mackerel|sardine|carp|pike|tilapia|'
-      'halibut|anchovy|catfish|bass|perch|pollock|haddock', '🐟'),
+  (
+    'fish|salmon|tuna|cod|trout|herring|mackerel|sardine|carp|pike|tilapia|'
+        'halibut|anchovy|catfish|bass|perch|pollock|haddock',
+    '🐟',
+  ),
   // ovocie
   ('pineapple', '🍍'),
   ('apple|applesauce', '🍎'),
@@ -119,9 +155,12 @@ const _table = [
   ('grape|raisin', '🍇'),
   ('strawberry|strawberries', '🍓'),
   ('cherry|cherries', '🍒'),
-  ('blueberry|blueberries|raspberry|raspberries|blackberry|blackberries|'
-      'cranberry|cranberries|currant|gooseberry|gooseberries|boysenberry|'
-      'boysenberries|elderberry|elderberries|berry|berries', '🫐'),
+  (
+    'blueberry|blueberries|raspberry|raspberries|blackberry|blackberries|'
+        'cranberry|cranberries|currant|gooseberry|gooseberries|boysenberry|'
+        'boysenberries|elderberry|elderberries|berry|berries',
+    '🫐',
+  ),
   ('peach|nectarine|apricot|plum|prune', '🍑'),
   ('mango', '🥭'),
   ('kiwi|kiwifruit', '🥝'),
@@ -142,18 +181,30 @@ const _table = [
   ('mushroom|shiitake', '🍄'),
   ('eggplant|aubergine', '🍆'),
   ('pumpkin|squash|zucchini|courgette|gourd', '🎃'),
-  ('lettuce|cabbage|kale|spinach|chard|collard|arugula|greens|brussels sprout|'
-      'endive|cress|celery|bok choy', '🥬'),
+  (
+    'lettuce|cabbage|kale|spinach|chard|collard|arugula|greens|brussels sprout|'
+        'endive|cress|celery|bok choy',
+    '🥬',
+  ),
   ('asparagus|sprout|shoot', '🌱'),
-  ('parsley|basil|dill|mint|spearmint|herb|seaweed|coriander|cilantro|'
-      'rosemary|thyme|oregano', '🌿'),
+  (
+    'parsley|basil|dill|mint|spearmint|herb|seaweed|coriander|cilantro|'
+        'rosemary|thyme|oregano',
+    '🌿',
+  ),
   // strukoviny
-  ('bean|lentil|chickpea|garbanzo|pea|soybean|edamame|lupin|cowpea|'
-      'broadbean|hummus|tofu|tempeh|falafel', '🫘'),
+  (
+    'bean|lentil|chickpea|garbanzo|pea|soybean|edamame|lupin|cowpea|'
+        'broadbean|hummus|tofu|tempeh|falafel',
+    '🫘',
+  ),
   // omáčky, polievky, koreniny, tuky
   ('soup|stew|broth|chowder|bouillon', '🍲'),
   ('salad dressing|dressing|mayonnaise|sauce|gravy|salsa|dip|relish', '🥫'),
   ('oil|shortening|lard|tallow|fat', '🫒'),
-  ('salt|spice|seasoning|vinegar|vanilla|leavening|baking powder|'
-      'baking soda|mustard|wasabi|yeast|cinnamon|nutmeg', '🧂'),
+  (
+    'salt|spice|seasoning|vinegar|vanilla|leavening|baking powder|'
+        'baking soda|mustard|wasabi|yeast|cinnamon|nutmeg',
+    '🧂',
+  ),
 ];

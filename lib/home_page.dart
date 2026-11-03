@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
 import 'models/food.dart';
 import 'pages/food_search_page.dart';
@@ -86,7 +86,9 @@ class _HomePageState extends State<HomePage> {
 
     final meal = Meal(time: TimeOfDay.now());
     final added = await Navigator.of(context).push<bool>(
-      MaterialPageRoute(builder: (_) => NewMealPage(meal: meal, photo: bytes)),
+      MaterialPageRoute(
+        builder: (_) => NewMealPage(meal: meal, photo: bytes),
+      ),
     );
     if (added != true || !mounted) return;
     setState(() => _mealsByDay.putIfAbsent(day, () => []).add(meal));
@@ -94,7 +96,9 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _openMeal(Meal meal, String title) async {
     await Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => MealDetailPage(meal: meal, title: title)),
+      MaterialPageRoute(
+        builder: (_) => MealDetailPage(meal: meal, title: title),
+      ),
     );
     if (mounted) setState(() {});
   }
@@ -116,7 +120,8 @@ class _HomePageState extends State<HomePage> {
     if (!_scroll.hasClients) return;
     final daysAgo = (_today.difference(date).inHours / 24).round();
     final pos = _scroll.position;
-    final target = daysAgo * _dayExtent + _dayExtent / 2 - pos.viewportDimension / 2;
+    final target =
+        daysAgo * _dayExtent + _dayExtent / 2 - pos.viewportDimension / 2;
     _scroll.animateTo(
       target.clamp(0.0, pos.maxScrollExtent),
       duration: const Duration(milliseconds: 350),
@@ -153,15 +158,15 @@ class _HomePageState extends State<HomePage> {
           IconButton(
             tooltip: 'Potraviny',
             icon: const Icon(Icons.search),
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(builder: (_) => const FoodSearchPage()),
-            ),
+            onPressed: () => Navigator.of(
+              context,
+            ).push(MaterialPageRoute(builder: (_) => const FoodSearchPage())),
           ),
           IconButton(
             icon: const Icon(Icons.logout),
             onPressed: () async {
               await GoogleSignIn.instance.signOut();
-              await FirebaseAuth.instance.signOut();
+              await Supabase.instance.client.auth.signOut();
             },
           ),
         ],
@@ -235,37 +240,39 @@ class _HomePageState extends State<HomePage> {
                   child: meals.isEmpty
                       ? const Center(child: _EmptyState())
                       : ListView.builder(
-                    padding: const EdgeInsets.fromLTRB(24, 0, 24, 110),
-                    itemCount: meals.length,
-                    itemBuilder: (_, i) {
-                      final meal = meals[i];
-                      final title = 'Jedlo ${i + 1}';
-                      return Padding(
-                        padding: const EdgeInsets.only(bottom: 12),
-                        child: Dismissible(
-                          key: ObjectKey(meal),
-                          direction: DismissDirection.endToStart,
-                          onDismissed: (_) =>
-                              setState(() => meals.remove(meal)),
-                          background: Container(
-                            alignment: Alignment.centerRight,
-                            padding: const EdgeInsets.only(right: 24),
-                            decoration: BoxDecoration(
-                              color: Colors.red.shade400,
-                              borderRadius: BorderRadius.circular(24),
-                            ),
-                            child: const Icon(Icons.delete_outline,
-                                color: Colors.white),
-                          ),
-                          child: MealTile(
-                            title: title,
-                            meal: meal,
-                            onTap: () => _openMeal(meal, title),
-                          ),
+                          padding: const EdgeInsets.fromLTRB(24, 0, 24, 110),
+                          itemCount: meals.length,
+                          itemBuilder: (_, i) {
+                            final meal = meals[i];
+                            final title = 'Jedlo ${i + 1}';
+                            return Padding(
+                              padding: const EdgeInsets.only(bottom: 12),
+                              child: Dismissible(
+                                key: ObjectKey(meal),
+                                direction: DismissDirection.endToStart,
+                                onDismissed: (_) =>
+                                    setState(() => meals.remove(meal)),
+                                background: Container(
+                                  alignment: Alignment.centerRight,
+                                  padding: const EdgeInsets.only(right: 24),
+                                  decoration: BoxDecoration(
+                                    color: Colors.red.shade400,
+                                    borderRadius: BorderRadius.circular(24),
+                                  ),
+                                  child: const Icon(
+                                    Icons.delete_outline,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                child: MealTile(
+                                  title: title,
+                                  meal: meal,
+                                  onTap: () => _openMeal(meal, title),
+                                ),
+                              ),
+                            );
+                          },
                         ),
-                      );
-                    },
-                  ),
                 ),
               ],
             ),
@@ -285,8 +292,11 @@ class _EmptyState extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Icon(Icons.photo_camera_outlined,
-            size: 56, color: color.withValues(alpha: 0.4)),
+        Icon(
+          Icons.photo_camera_outlined,
+          size: 56,
+          color: color.withValues(alpha: 0.4),
+        ),
         const SizedBox(height: 12),
         Text(
           'Tento deň zatiaľ žiadne jedlo.\nKlikni na „Odfotiť jedlo“.',
